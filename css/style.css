@@ -1,0 +1,118 @@
+
+
+@font-face {
+    font-family: "NotoSans";
+    src: url(../font/NotoSansHant-Regular.otf);
+}
+ 
+ 
+ body{
+	background: url(../IMG/bg.png) center center fixed no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+	font-family:"NotoSans","微軟正黑體";
+	margin:40px 20px 20px 20px;
+	color:#595757;
+}
+
+h1{
+	color:#595757;
+	text-align:left;
+	font-weight:1px;
+	font-size: 28px;
+	padding-bottom:20px;
+}
+
+h2{
+	color:#595757;
+	text-align:left;
+	font-weight:3px;
+	font-size: 22px;
+}
+
+p{
+	color:#595757;
+	text-align:left;
+	line-height:1.5em;
+	font-size: 20px;
+	padding-bottom:20px;
+}
+
+a{
+	color:#4B4A92;
+	text-decoration:none;
+}
+
+ul{
+	color:#595757;
+	list-style-type:none;
+	text-align:left;
+	line-height:1.5em;
+	font-size: 20px;
+}
+
+ul li{
+	color:#595757;
+}
+
+.HEADER{
+	background-color: rgba(255,255,255,0.5); 
+	width:1120px;
+	height:200px;
+	float:center;
+	padding: 20px 20px 10px 20px;
+	border-radius: 10px 10px 0 0;
+	text-align: center;
+}
+
+.header_photo{background-color: rgba(255,255,255,0.8); 
+	float:center;
+	width:1080px;
+	height:130px;
+	border-radius: 10px 10px 0 0;
+	padding: 10px 20px 10px 20px;
+}
+
+.header_photo img{
+	padding-top:25px;
+}
+
+.nav_bar{
+	float:left;
+	text-align:center;
+	padding-bottom: 10px;
+	height:10px;
+}
+
+.BBODY{
+	background-color: rgba(255, 255, 255, 0.5);
+	width:1120px;
+	float:center;
+	margin: 10px 0 10px 0;
+	padding:20px 20px 20px 20px;
+}
+
+.content{
+	background-color: rgba(255, 255, 255, 0.8); 
+	float:center;
+}
+
+.FOOTER{
+	background: rgba(255, 255, 255, 0.5);  
+	height:35px;
+	width:1120px;
+	padding:10px 20px 10px 20px;
+	margin-top:10px;
+	float:center;
+	border-radius: 0 0 10px 10px;
+	margin-bottom:40px;
+}
+
+.License{
+	background-color: rgba(255, 255, 255,0.7);
+	width:1110px;
+	color:#777;
+	text-align: center;
+	padding: 5px;
+	border-radius: 0 0 10px 10px;
+}
