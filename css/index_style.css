@@ -44,9 +44,12 @@
 }
 .contact{
 	width:90px;
+	display:inline;
 }
 
 .contact img{
+	height:35px;
+	width:35px;
 	margin:0 5px 0 0;
 	vertical-align:middle;
 }
