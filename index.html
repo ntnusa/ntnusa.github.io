@@ -7,7 +7,10 @@
 		<META NAME="Description" CONTENT="臺灣師範大學學生自治會的官方網頁"> <!-- 描述 -->
 		<META NAME="Author" CONTENT="學生會資訊部">  <!-- 作者 -->
 		<META NAME="Generator" CONTENT="Notepad++">	 <!-- 生產的工具 -->
-		<META HTTP-EQUIV="Pragma" CONTENT="no_cache">  <!-- Cache -->
+		<META HTTP-EQUIV="Pragma" CONTENT="no_cache">  <!-- Cache -->		
+		
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		
 		<link rev="made" href="https://www.facebook.com/NTNUstudentA"> <!-- 製作團隊 -->
 		
 		<title>師大學生會．NTNUSA</title>
@@ -26,11 +29,23 @@
         <script type="text/javascript" src="javascript/nav_bar_function.js"></script>
 		
 		<style>
-.BBODY{
-	height:1580px;
+		
+@media only screen and (max-width: 1024px) {
+	.BBODY{
+		height:auto;
+	}
+	.content{
+		height:auto;
+	}
+
 }
-.content{
-	height:850px;
+@media only screen and (min-width: 1024px) {
+	.BBODY{
+		height:1580px;
+	}
+	.content{
+		height:850px;
+	}
 }
 		</style>
 		
@@ -63,9 +78,9 @@
 		<!--頂端圖和按鈕部分-->
 		<div class="HEADER"> 
 			<a href="index.html">
-			<div class="header_photo">
-				<img src="IMG/head.png">
-			</div>
+				<div class="header_photo">
+					<img src="IMG/head.png">
+				</div>
 			</a>
 			<div class="nav_bar">
 				<ul id="sdt_menu" class="sdt_menu">
@@ -192,8 +207,8 @@
 						</span>
 						<span class="contact">
 							<form>
-								<input type="text" id="search" placeholder="search" style="height:30px;width:90px;"> <!-- search form -->
-								<input type="submit" value="搜!" style="height:39px;width:39px;">  <!-- button -->
+								<input class="search_bar" type="text" id="search" placeholder="search"> <!-- search form -->
+								<input class="search_bottom" type="submit" value="搜!">  <!-- button -->
 							</form>
 						<span class="contact">
 							<!-- 使用 javascript 來做搜尋? -->
@@ -204,7 +219,7 @@
 				
 					<!-- 會員登入 -->
 					<div class="right_login">
-						<h1>會員登入 / Log in</h1>
+						<h1>會員登入 <span class="hide">/ Log in</span></h1>
 					</div>
 				
 					<!-- 時鐘 -->
@@ -215,7 +230,7 @@
 					
 					<!--申訴表單-->
 					<div class="appeal">
-						<a href="making.html"><h1>申訴表單 / complain</h1></a>
+						<a href="making.html"><h1>申訴表單 <span class="hide">/ complain</span></h1></a>
 					</div>
 					
 					<!-- 各部門連結 -->
@@ -223,16 +238,16 @@
 						<h1>各部門 Departments</h1>
 						<div class="dep_list">
 								<ul>
-									<li><a href="making.html">會長 / 副會長</a></li>
-									<li><a href="making.html">秘書處</a></li>
-									<li><a href="making.html">公關部</a></li>
-									<li><a href="making.html">活動部</a></li>
-									<li><a href="making.html">權益部</a></li>
-									<li><a href="making.html">新聞部</a></li>
-									<li><a href="making.html">學術部</a></li>
-									<li><a href="making.html">財務部</a></li>
-									<li><a href="making.html">文宣部</a></li>
-									<li><a href="making.html">資訊部</a></li>
+									<a href="making.html"><li>會長 / 副會長</li></a>
+									<a href="making.html"><li>秘書處</li></a>
+									<a href="making.html"><li>公關部</li></a>
+									<a href="making.html"><li>活動部</li></a>
+									<a href="making.html"><li>權益部</li></a>
+									<a href="making.html"><li>新聞部</li></a>
+									<a href="making.html"><li>學術部</li></a>
+									<a href="making.html"><li>財務部</li></a>
+									<a href="making.html"><li>文宣部</li></a>
+									<a href="making.html"><li>資訊部</li></a>
 								<!--
 									<li><a href="departments/president.html">會長 / 副會長</a></li>
 									<li><a href="departments/Sec.html">秘書處</a></li>
@@ -265,7 +280,7 @@
 		<!--版權聲明-->
 		<div class="FOOTER">
 			<div class="License">
-				&copy;﻿ 2014 by Nation Taiwan Norman University Student Association
+				&copy;﻿ 2014 by Nation Taiwan Norman University Student Association 
 			</div>
 		</div>
 	

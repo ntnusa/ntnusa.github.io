@@ -4,6 +4,153 @@
     src: url(../font/NotoSansHant-Regular.otf);
 }
 
+
+@media only screen and (max-width: 1024px) {
+	.LEFT{
+		display:none;
+	}
+	.RIGHT{
+		background-color:none;
+		width:100%;
+		height:auto;
+		padding:0;
+	}
+
+	.right_up{
+		width:100%;
+		margin-top:1em;
+		margin-bottom:2em;
+	}
+	.contact{
+		background:none;
+		width:100%;
+		display:inline;
+	}
+
+	.contact img{
+		height:10%;
+		width:10%;
+		margin:0 5% 0 0;
+		vertical-align:middle;
+	}
+	
+	.search_bar{
+		height:30px;
+		width:60%;
+	}
+	
+	.search_bottom{
+		display:none;
+	}
+	
+	.right_up form{
+		display:inline;
+	}
+
+	.right_login{
+	}
+
+	.right_login:hover > h1{
+		color:black;
+	}
+
+
+	.right_login h1{
+		background: url("../IMG/Login.png")	center center;
+		-moz-background-size: cover;
+		background-size: cover;
+		color:#595757;
+		height:3em;
+		font-size:1.5em;
+		font-family:"微軟正黑體";
+		text-align:center;
+		border:1px solid gray;
+		padding-top:1%;
+		padding-bottom:1%;
+		line-height:3em;
+	}
+
+	.right_login a{
+		text-decoration: none;
+	}
+
+	.appeal{
+		padding-bottom:10px;
+	}
+
+	.appeal:hover > a h1{
+		color:black;
+	}
+
+	.appeal h1{
+		background: url("../IMG/appeal.png") center center;
+		-moz-background-size: cover;
+		background-size: cover;
+		color:#595757;
+		height:3em;
+		font-size:1.5em;
+		font-family:"微軟正黑體";
+		text-align:center;
+		border:1px solid gray;
+		padding-top:1%;
+		padding-bottom:1%;
+		line-height:3em;
+	}
+
+
+
+	.Departments h1{
+		background-image: url("../IMG/nav_bar_pic/li.png") ;
+		font-family: "NotoSans","微軟正黑體";
+		-moz-background-size: cover;
+		background-size: cover;
+		color:white;
+		font-size:1.2em;
+		line-height:.8em;
+		padding-top:1em;
+		padding-bottom:1em;
+		text-align:center;
+	}
+
+	.dep_list{
+		height:auto;
+		font-size:1em;
+		text-align:left;
+		
+	}
+
+	.dep_list ul a li{
+		background:#ccc;
+		color:black;
+		font-size:1.5em;
+		font-weight: bold;
+		font-family: "NotoSans","微軟正黑體";
+		font-weight: normal;
+		margin-bottom:.5em;
+		line-height: 3em;
+		text-decoration: none;
+		border:1px solid gray;
+	}
+
+	.dep_list ul{
+		list-style-type:none;
+	}
+
+	.dep_list li:hover{
+		background:#555;
+		color:white;
+		border:1px solid gray;
+		cursor:pointer;
+	}
+	
+	.time_content{
+		display:none;
+	}
+}
+
+
+@media only screen and (min-width: 1024px) {
+
 .LEFT{
 	background-color:none;
 	width: 710px;
@@ -52,6 +199,21 @@
 	width:35px;
 	margin:0 5px 0 0;
 	vertical-align:middle;
+}
+
+.search_bar{
+		height:30px;
+		width:90px;
+}
+	
+.search_bottom{
+	height:39px;
+	width:39px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
 }
 
 .right_up form{
@@ -141,8 +303,8 @@
 	
 }
 
-.dep_list a{
-	color:gray;
+.dep_list ul a li{
+	color: gray;
 	font-weight: bold;
 	font-family: "NotoSans","微軟正黑體";
 	font-weight: normal;
@@ -154,7 +316,7 @@
 	list-style-type:disc;
 }
 
-.dep_list a:hover{
+.dep_list a:hover > li{
 	color:black;
 }
 
@@ -188,4 +350,5 @@
 	width:350px;
 	height:570px;
 	padding:10px 0px 10px  0px;
+}
 }

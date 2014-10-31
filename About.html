@@ -21,12 +21,27 @@
 		
 	</head>
 	<style>
-.BBODY{
-	height:1440px;
+	
+@media only screen and (max-width: 1024px) {
+	.BBODY{
+		height:auto;
+	}
+	.content{
+		height:auto;
+	}
+	.nl{
+		display:none;
+	}
 }
-.content{
-	height:1380px;
-	padding:30px 70px 30px 70px;
+
+@media only screen and (min-width: 1024px) {
+	.BBODY{
+		height:1440px;
+	}
+	.content{
+		height:1380px;
+		padding:30px 70px 30px 70px;
+	}
 }
 	</style>
 	<body>
@@ -136,19 +151,18 @@
 				學生議會設有各類委員會，監督工作會運作的情形，並適時給予意見與建議。 <br />
  
 				學生評議會負責協調工作會與議會的爭端。 <br />
-				</p>
-				<br /><br />
+				</p><br class="nl" /><br class="nl" />
 				<h1>學生會歷屆會長名錄</h1>
-				<h2>#&nbsp師院學生會時期（1948~1949）</h2>
+				<h2>#&nbsp師院學生會時期<span class="hide">（1948~1949）</span></h2>
 				<ul>
 				<li>第&nbsp;&nbsp;一&nbsp;&nbsp;屆 &nbsp; 教育 &nbsp;&nbsp;&nbsp; 39 級 &nbsp; 鄭鴻溪（1990年病逝中國北京）</li>
 				<li>第&nbsp;&nbsp;二&nbsp;&nbsp;屆 &nbsp; 數學 &nbsp;&nbsp;&nbsp; 40 級 &nbsp; 周慎源（1949年死於四六事件）</li>
 				</ul>
-				<h2>#&nbsp師大學生會時期（1991~1995）</h2>
+				<h2>#&nbsp師大學生會時期<span class="hide">（1991~1995）</span></h2>
 				<ul>
 					<li>第&nbsp;&nbsp;三&nbsp;&nbsp;屆 &nbsp; 國文 &nbsp;&nbsp;&nbsp; 83 級 &nbsp;  湯傑郎</li>
 				</ul>
-				<h2>#&nbsp師大學生自治會時期（1996至今）</h2>
+				<h2>#&nbsp師大學生自治會時期<span class="hide">（1996至今）</span></h2>
 				<ul>
 					<li>第&nbsp;&nbsp;一&nbsp;&nbsp;屆 &nbsp; 教育 &nbsp;&nbsp;&nbsp; 86 級 &nbsp;  黃宗民</li>
 					<li>第&nbsp;&nbsp;二&nbsp;&nbsp;屆 &nbsp; 衛教 &nbsp;&nbsp;&nbsp; 88 級 &nbsp;  邱琬婷</li>
