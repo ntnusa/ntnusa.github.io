@@ -6,9 +6,13 @@
 
 
 @media only screen and (max-width: 1024px) {
+
+	
+
 	.LEFT{
 		display:none;
 	}
+	
 	.RIGHT{
 		background-color:none;
 		width:100%;
@@ -50,12 +54,12 @@
 	.right_login{
 	}
 
-	.right_login:hover > h1{
+	.right_login:hover > .Login{
 		color:black;
 	}
 
 
-	.right_login h1{
+	.Login{
 		background: url("../IMG/Login.png") left center;
 		-moz-background-size: cover;
 		background-size: cover;
@@ -78,11 +82,11 @@
 		padding-bottom:10px;
 	}
 
-	.appeal:hover > a h1{
+	.appeal:hover > a .complain{
 		color:black;
 	}
 
-	.appeal h1{
+	.complain{
 		background: url("../IMG/appeal.png") left center;
 		-moz-background-size: cover;
 		background-size: cover;
@@ -99,7 +103,7 @@
 
 
 
-	.Departments h1{
+	.Dep_title{
 		background-image: url("../IMG/nav_bar_pic/li.png") ;
 		font-family: "NotoSans","微軟正黑體";
 		-moz-background-size: cover;
@@ -221,15 +225,15 @@ img {
 }
 
 .right_login{
-	padding-top:15px;
+	padding:15px 0 15px 0;
 }
 
-.right_login:hover > h1{
+.right_login:hover > span{
 	color:black;
 }
 
 
-.right_login h1{
+.Login{
 	background-image: url("../IMG/Login.png") ;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -250,14 +254,14 @@ img {
 }
 
 .appeal{
-	padding-bottom:10px;
+	padding-bottom:20px;
 }
 
-.appeal:hover > a h1{
+.appeal:hover > a .complain{
 	color:black;
 }
 
-.appeal h1{
+.complain{
 	background-image: url("../IMG/appeal.png") ;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -278,7 +282,7 @@ img {
 }
 
 
-.Departments h1{
+.Dep_title{
 	background-image: url("../IMG/nav_bar_pic/li.png") ;
 	font-family: "NotoSans","微軟正黑體";
 	-moz-background-size: cover;
@@ -286,7 +290,7 @@ img {
 	color:white;
 	font-size:1em;
 	line-height:1em;
-	padding-top:15px;
+	padding:15px 0 15px 0;
 	text-align:center;
 }
 
@@ -329,11 +333,15 @@ img {
 	margin-top:20px;
 }
 
-.time_content h1,hr{
+.calendar_title{
 	font-family: "NotoSans","微軟正黑體";
 	text-align:center;
 	color: DarkBlue ;
 	font-size:1.5em;
+}
+
+.time_content hr{
+	color: DarkBlue ;
 }
 
 .calendar{
