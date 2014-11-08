@@ -43,7 +43,7 @@
 }
 @media only screen and (min-width: 1024px) {
 	.BBODY{
-		height:1580px;
+		height:1820px;
 	}
 	.content{
 		height:850px;
@@ -59,61 +59,115 @@
 			defaultDate: '2014-11-15',
 			editable: false,
 			eventLimit: true, // 允許"more"標籤
-			events: [
-				{
-					title: '熱舞社迎新舞展',
-					url: 'https://www.facebook.com/groups/244515015591474/',
-					start: '2014-09-18',
-					end: '2014-09-18'
-				},
-				{
-					title: '咖啡大師經典講座-作味',
-					start: '2014-11-11',
-					color: 'brown'
-				},
-				{
-					title: '紅鈴訓',
-					start: '2014-11-16',
-					color: 'red'
-				},
-				{
-					title: '閱讀·悅讀募書週',
-					start: '2014-11-17',
-					end: '2014-11-20',
-					color: 'brown'
-				},
-				{
-					title: '閱讀·悅讀募書週',
-					start: '2014-11-24',
-					end: '2014-11-28',
-					color: 'brown'
-				},
-				{
-					title: '同心二手物週',
-					start: '2014-11-14',
-					end: '2014-11-19'
-				},
-				{
-					title: '桃友大出遊',
-					start: '2014-11-23'
-				},
-				{
-					title: '同心義賣週',
-					start: '2014-11-24',
-					end: '2014-11-28'
-				},
-				{
-					title: '六布曲—布研浴場',
-					start: '2014-11-25',
-					end: '2014-11-27'
-				},
-				{
-					title: '師大急救隊-急救初訓',
-					start: '2014-11-29',
-					end: '2014-11-30',
-					color: 'red'
-				}
-			]
+			events: 
+				[
+					{
+						title: '熱舞社迎新舞展',
+						start: '2014-09-18',
+						end: '2014-09-18'
+					},
+					{
+						title: '植物例會-煮豆燃杞',
+						start: '2014-10-22T18:30',
+						allday: false
+					},
+					{
+						title: '從國際影展到好萊塢的動畫之路',
+						start: '2014-10-30T19:00',
+						allday: false
+					},
+					{
+						title: '熱舞社迎新舞展',
+						start: '2014-09-18',
+						allday: false
+					},
+					{
+						title: '生科週-微熱生活',
+						start: '2014-10-20',
+						end: '2014-10-24',
+						color: 'LimeGreen'
+					},
+					{
+						title: '咖啡大師講座-作味',
+						start: '2014-11-11',
+						color: 'brown'
+					},
+					{
+						title: '紅鈴訓',
+						start: '2014-11-16T10',
+						color: 'Crimson',
+						allDay: false
+					},
+					{
+						title: '閱讀·悅讀募書週',
+						start: '2014-11-17',
+						end: '2014-11-20',
+						color: 'brown'
+					},
+					{
+						title: '閱讀·悅讀募書週',
+						start: '2014-11-24',
+						end: '2014-11-28',
+						color: 'brown'
+					},
+					{
+						title: '同心二手物週',
+						start: '2014-11-14',
+						end: '2014-11-19'
+					},
+					{
+						title: '桃友大出遊',
+						start: '2014-11-23'
+					},
+					{
+						title: '鈴鐺社出遊',
+						start: '2014-11-23',
+						color: 'yellow',
+							textColor: '#595757'
+					},
+					{
+						title: '鈴鐺社-鋼鐵人3',
+						start: '2014-11-25',
+						color: 'yellow',
+						textColor: '#595757'
+					},
+					{
+						title: '手語週-手昕的溫度',
+						start: '2014-11-24',
+						end: '2014-11-28',
+						color: 'Bisque',
+						textColor: '#595757'
+					},
+					{
+						title: '同心義賣週',
+						start: '2014-11-24',
+						end: '2014-11-28'
+					},
+					{
+						title: '六布曲—布研浴場',
+						start: '2014-11-25',
+						end: '2014-11-27',
+						color: 'MediumOrchid '
+					},
+					{
+						title: '黃武山老師傳統偶講座',
+						start: '2014-11-29T14',
+						color: 'Bisque',
+						color: 'MediumOrchid ',
+						allday: false
+					},
+					{
+						title: '法輪社-人權影展',
+						start: '2014-11-27',
+						color: 'GoldenRod '
+					},
+					{
+						title: '師大急救隊-急救初訓',
+						start: '2014-11-29',
+						end: '2014-11-30',
+						color: 'red'
+					}
+				]
 		});
 		
 	});
@@ -319,9 +373,13 @@
 				<h2 class="calendar_title">活動行事曆</h2>
 				<hr />
 				<div id='calendar' class="calendar"></div>
+				
+				<!--
 				<div class="whatsnext">
 					<img src="IMG/325_570.jpeg">
 				</div>
+				-->
+				
 			</div>
 			
 		</div>
