@@ -2,18 +2,20 @@
  
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />  <!-- 網站文字編碼 -->
-		<meta name="KeyWords" content="NTNUSA'師大學生會'臺師大'學生自治會">  <!-- 關鍵字, 協助SEO -->
-		<META NAME="Description" CONTENT="臺灣師範大學學生自治會的官方網頁"> <!-- 描述 -->
-		<META NAME="Author" CONTENT="學生會資訊部">  <!-- 作者 -->
-		<META NAME="Generator" CONTENT="Notepad++">	 <!-- 生產的工具 -->
-		<META HTTP-EQUIV="Pragma" CONTENT="no_cache">  <!-- Cache -->		
-		
-		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
-		
+	
+		<!--META TAGs-->
+		<meta name="Description" CONTENT="臺灣師範大學學生自治會的官方網頁，學生會主軸為校務參與、權益爭取、企劃執行和校外交流。"> <!-- 描述 -->
+		<meta name="KeyWords" content="NTNUSA,師大學生會,臺師大,學生自治會,Student Association 18th">  <!-- 關鍵字, 協助SEO -->
+		<meta name="Author" CONTENT="學生會資訊部">  <!-- 作者 -->
+		<meta name="Generator" CONTENT="Notepad++">	 <!-- 生產的工具 -->
+		<meta http-equiv="Pragma" CONTENT="no_cache">  <!-- Cache -->		
+		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />  <!-- 網站文字編碼 -->
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">   <!-- RWD -->
 		<link rev="made" href="https://www.facebook.com/NTNUstudentA"> <!-- 製作團隊 -->
+		<!--META TAGs-->
 		
-		<title>師大學生會．NTNUSA</title>
+		
+		<title>師大學生會 - NTNUSA</title>    <!-- Title 標題 -->
 		
 		<link href="IMG/favicon.ico" type="image/x-icon" rel="shortcut icon">   <!-- title 前的圖片 -->
         <link href="css/style.css" type="text/css" media="screen" rel="stylesheet"/>   <!-- 主要樣式表 -->
@@ -54,7 +56,7 @@
 	$(document).ready(function() {
 
 		$('#calendar').fullCalendar({
-			defaultDate: '2014-09-12',
+			defaultDate: '2014-11-15',
 			editable: false,
 			eventLimit: true, // 允許"more"標籤
 			events: [
@@ -63,6 +65,53 @@
 					url: 'https://www.facebook.com/groups/244515015591474/',
 					start: '2014-09-18',
 					end: '2014-09-18'
+				},
+				{
+					title: '咖啡大師經典講座-作味',
+					start: '2014-11-11',
+					color: 'brown'
+				},
+				{
+					title: '紅鈴訓',
+					start: '2014-11-16',
+					color: 'red'
+				},
+				{
+					title: '閱讀·悅讀募書週',
+					start: '2014-11-17',
+					end: '2014-11-20',
+					color: 'brown'
+				},
+				{
+					title: '閱讀·悅讀募書週',
+					start: '2014-11-24',
+					end: '2014-11-28',
+					color: 'brown'
+				},
+				{
+					title: '同心二手物週',
+					start: '2014-11-14',
+					end: '2014-11-19'
+				},
+				{
+					title: '桃友大出遊',
+					start: '2014-11-23'
+				},
+				{
+					title: '同心義賣週',
+					start: '2014-11-24',
+					end: '2014-11-28'
+				},
+				{
+					title: '六布曲—布研浴場',
+					start: '2014-11-25',
+					end: '2014-11-27'
+				},
+				{
+					title: '師大急救隊-急救初訓',
+					start: '2014-11-29',
+					end: '2014-11-30',
+					color: 'red'
 				}
 			]
 		});
