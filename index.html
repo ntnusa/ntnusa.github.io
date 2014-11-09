@@ -12,26 +12,29 @@
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />  <!-- 網站文字編碼 -->
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">   <!-- RWD -->
 		<link rev="made" href="https://www.facebook.com/NTNUstudentA"> <!-- 製作團隊 -->
-		<!--META TAGs-->
-		
+		<!-- ./META TAGs-->
 		
 		<title>師大學生會 - NTNUSA</title>    <!-- Title 標題 -->
 		
-		<link href="IMG/favicon.ico" type="image/x-icon" rel="shortcut icon">   <!-- title 前的圖片 -->
-        <link href="css/style.css" type="text/css" media="screen" rel="stylesheet"/>   <!-- 主要樣式表 -->
-		<link href="css/index_style.css" type="text/css" media="screen" rel="stylesheet"/>   <!-- 主頁樣式表 -->
-		<link href="css/nav_bar.css" type="text/css" media="screen" rel="stylesheet"/>  <!-- nav_bar 樣式表 -->
-		<link href='css/fullcalendar.css' rel='stylesheet' />	<!-- 行事曆樣式表 -->
+		<!-- bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
 		
-    <!-- CAROUSEL styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link type="image/x-icon" rel="shortcut icon" href="IMG/favicon.ico" />   <!-- title 前的圖片 -->
+        <link type="text/css" media="screen" rel="stylesheet" href="css/style.css"/>   <!-- 主要樣式表 -->
+		<link type="text/css" media="screen" rel="stylesheet" href="css/index_style.css"/>   <!-- 主頁樣式表 -->
+		<link type="text/css" media="screen" rel="stylesheet" href="css/nav_bar.css"/>  <!-- nav_bar 樣式表 -->
+		<link type="text/css" rel='stylesheet'  href='css/fullcalendar.css'/>	<!-- 行事曆樣式表 -->
 		
+		<!-- CAROUSEL styles -->
+		
+		<link href="css/carousel.css" type="text/css" media="screen" rel="stylesheet"/>
+	
 		
 		
 		<!-- 引入jquery -->
-		<script src='javascript/jquery.min.js'></script> 
-		
+		<script src='javascript/jquery.min.js'></script>
+		<script src="javascript/bootstrapSourceJS"></script>
 		<!-- nav_bar 的javascript 相關程式碼  -->
 		<script type="text/javascript" src="javascript/nav_bar.js"></script>
         <script type="text/javascript" src="javascript/nav_bar_function.js"></script>
@@ -49,139 +52,15 @@
 }
 @media only screen and (min-width: 1024px) {
 	.BBODY{
-		height:1820px;
+		height:1740px;
 	}
 	.content{
-		height:850px;
+		height:770px;
 	}
 }
 
 
 
-
-
-
-/* CUSTOMIZE THE CAROUSEL
-    -------------------------------------------------- */
-
-    /* Carousel base class */
-    .carousel {
-      margin-bottom: 60px;
-    }
-
-    .carousel .container {
-      position: relative;
-      z-index: 9;
-    }
-
-    .carousel-control {
-      height: 80px;
-      margin-top: 0;
-      font-size: 120px;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-      background-color: transparent;
-      border: 0;
-      z-index: 10;
-    }
-
-    .carousel .item {
-      height: 340px;
-    }
-    .carousel img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 400px;
-    }
-
-    .carousel-caption {
-      background-color: rgba(0,0,0,0.5);
-      position: sticky;
-      max-width: 550px;
-      padding: 85px 105px 85px 65px;
-     // margin-top: 65px;
-	 // margin-left: 60px;
-    }
-    .carousel-caption h1,
-    .carousel-caption .lead {
-      margin: 0;
-      line-height: 1.25;
-      color: #fff;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
-    }
-    .carousel-caption .btn {
-      margin-top: 10px;
-    }
-
-
-    /* RESPONSIVE CSS
-    -------------------------------------------------- */
-
-    @media (max-width: 979px) {
-      .carousel .item {
-        height: 340px;
-      }
-      .carousel img {
-        width: auto;
-        height: 500px;
-      }
-
-      .featurette {
-        height: auto;
-        padding: 0;
-      }
-      .featurette-image.pull-left,
-      .featurette-image.pull-right {
-        display: block;
-        float: none;
-        max-width: 40%;
-        margin: 0 auto 20px;
-      }
-    }
-
-
-    @media (max-width: 767px) {
-
-      .carousel {
-        margin-left: -20px;
-        margin-right: -20px;
-      }
-      .carousel .container {
-
-      }
-      .carousel .item {
-        height: 300px;
-      }
-      .carousel img {
-        height: 300px;
-      }
-      .carousel-caption {
-        width: 65%;
-        padding: 0 70px;
-        margin-top: 100px;
-      }
-      .carousel-caption h1 {
-        font-size: 30px;
-      }
-      .carousel-caption .lead,
-      .carousel-caption .btn {
-        font-size: 18px;
-      }
-
-      .marketing .span4 + .span4 {
-        margin-top: 40px;
-      }
-
-      .featurette-heading {
-        font-size: 30px;
-      }
-      .featurette .lead {
-        font-size: 18px;
-        line-height: 1.5;
-      }
-
-    }
 
 		</style>
 		
@@ -426,46 +305,46 @@
 			
 				<!--左側-->
 				<div class="LEFT">
-					<div class="activity">
-						<div id="myCarousel" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="IMG/slide/slide-01.jpg" alt="">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>【行動代號1112】</h1>
-                        <p class="lead">師大學生一同來去校務會議，實踐校園民主的第一步：從參與校務會議開始！</p>
-                        <a class="btn btn-large btn-primary" href="https://www.facebook.com/events/360927724072923/?ref=22" target="_blank">開始行動!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="IMG/slide/slide-02.jpg" alt="">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>【萬用師大卡!!!】</h1>
-                        <p class="lead">為師大人的各位都拿到這張傳說中看電影可以立馬省70元的師大卡了嗎？</p>
-                        <a class="btn btn-large btn-primary" href="http://goo.gl/M3ZvTI" target="_blank">更多優惠！</a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="IMG/slide/slide-03.jpg" alt="">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>【午間音樂會終於來了】</h1>
-                        <p class="lead">11/1中午12點日光大道
-						帶著你的便當、你的好友、還有快樂的心情~
-						星期五我們在日光大道準時開唱！</p>
-                        <a class="btn btn-large btn-primary" href="http://goo.gl/jR0YIL" target="_blank">野餐+音樂！</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
-    </div>
+					<!-- Carousel
+					================================================== -->
+					<div id="myCarousel" class="carousel slide">
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="IMG/slide/slide-01.jpg" alt="">
+								<div class="container">
+									<div class="carousel-caption">
+										<h1>【行動代號1112】</h1>
+										<p class="lead">師大學生一同來去校務會議，實踐校園民主的第一步：從參與校務會議開始！</p>
+										<a class="btn btn-large btn-primary" href="#">開始行動!</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<img src="IMG/slide/slide-02.jpg" alt="">
+								<div class="container">
+									<div class="carousel-caption">
+										<h1>【萬用師大卡!!】</h1>
+										<p class="lead">身為師大人的各位都拿到這張傳說中看電影可以立馬省70元的師大卡了嗎？</p>
+										<a class="btn btn-large btn-primary" href="#">更多優惠！</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<img src="IMG/slide/slide-03.jpg" alt="">
+								<div class="container">
+									<div class="carousel-caption">
+										<h1>【午間音樂會終於來了!!!】</h1>
+										<p class="lead">11/1中午12點在日光大道，帶著你的便當、你的好友、還有星期五快樂的心情
+										我們來日光大道，野餐吧！</p>
+										<a class="btn btn-large btn-primary" href="#">去野餐囉！</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+						<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
 					</div>
+					<!-- /.carousel -->
 					
 					<div class="every_dep">
 						<img src="IMG/720_340.jpg">
@@ -494,12 +373,6 @@
 						<span class="contact">
 							<!-- 使用 javascript 來做搜尋? -->
 					</div>
-					
-					
-					
-					
-
-
 					
 					
 					<!-- 會員登入 -->
@@ -571,7 +444,6 @@
 			</div>
 		</div>
 		
-		<script src="javascript/bootstrapSourceJS"></script>
 
 		<script>
 			!function ($) {
