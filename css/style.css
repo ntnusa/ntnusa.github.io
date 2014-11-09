@@ -200,6 +200,8 @@ img {
 
 
 h1.main_title{
+	padding-top:10px;
+	padding-bottom:0px;
 	text-align:center;
 }
 
