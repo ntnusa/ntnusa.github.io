@@ -123,7 +123,7 @@
 		
 	}
 
-	.dep_list ul a li{
+	.dep_list ul li a{
 		background:#ccc;
 		color:black;
 		font-size:.75em;
@@ -206,8 +206,9 @@
 }
 
 .search_bar{
-		height:30px;
-		width:90px;
+	font-size:2em;
+	height:5px;
+	width:80px;
 }
 	
 .search_bottom{
@@ -307,8 +308,10 @@ img {
 	
 }
 
-.dep_list ul a li{
+.dep_list ul li a{
 	color: gray;
+	display:block;
+	width:150px;
 	font-weight: bold;
 	font-family: "NotoSans","·L³n¥¿¶ÂÅé";
 	font-weight: normal;
@@ -320,7 +323,7 @@ img {
 	list-style-type:disc;
 }
 
-.dep_list a:hover > li{
+.dep_list a:hover{
 	color:black;
 }
 

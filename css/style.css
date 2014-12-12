@@ -10,7 +10,7 @@ body{
 	-moz-background-size: cover;
 	background-size: cover;
 	font-family:"NotoSans","微軟正黑體";
-	margin:40px 20px 20px 20px;
+	margin:20px;
 	color:#595757;
 }
 
@@ -201,8 +201,6 @@ img {
 
 
 h1.main_title{
-	padding-top:10px;
-	padding-bottom:0px;
 	text-align:center;
 }
 
@@ -220,7 +218,8 @@ h1.main_title{
 	background-color: rgba(255, 255, 255, 0.5);
 	width:1120px;
 	float:center;
-	margin: 10px 0 10px 0;
+	margin-top: 10px;
+	margin-bottom: -10px;
 	padding:20px 20px 20px 20px;
 }
 
@@ -234,7 +233,6 @@ h1.main_title{
 	height:35px;
 	width:1120px;
 	padding:10px 20px 10px 20px;
-	margin-top:10px;
 	float:center;
 	border-radius: 0 0 10px 10px;
 	margin-bottom:40px;

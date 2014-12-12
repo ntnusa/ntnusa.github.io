@@ -15,6 +15,10 @@
 		
 		<title>師大學生會．NTNUSA</title>
 		
+		<!-- bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		
 		<link href="IMG/favicon.ico" type="image/x-icon" rel="shortcut icon">   <!-- title 前的圖片 -->
 		<link href="css/style.css" type="text/css" media="screen" rel="stylesheet"/>
 		<link href="css/nav_bar.css" type="text/css" media="screen" rel="stylesheet"/>
@@ -50,97 +54,7 @@
 	</style>
 	<body>
 	<center>
-		<div class="HEADER">
-			<a href="index.html">
-				<div class="header_photo">
-					<h1 class="main_title"><img src="IMG/head.png" alt="國立臺灣師範大學學生自治會"></h1>
-				</div>
-			</a>
-			<div class="nav_bar">
-				<ul id="sdt_menu" class="sdt_menu">
-					<li>
-						<a href="index.html">
-							<img src="IMG/nav_bar_pic/2.jpg" alt=""/>
-							<span class="sdt_active"></span>
-							<span class="sdt_wrap">
-								<span class="sdt_link">首頁</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="About.html">
-							<img src="IMG/nav_bar_pic/1.jpg" alt=""/>
-							<span class="sdt_active"></span>
-							<span class="sdt_wrap">
-								<span class="sdt_link">關於學生會</span>
-							</span>
-						</a>
-						<div class="sdt_box">
-								<a href="Organization.html">組織架構</a>
-								<a href="law.html">自治規程</a>
-								<a href="Dep_intro.html">部門介紹</a>
-						</div>
-					</li>
-					<li>
-						<a href="making.html">
-							<img src="IMG/nav_bar_pic/5.jpg" alt=""/>
-							<span class="sdt_active"></span>
-							<span class="sdt_wrap">
-								<span class="sdt_link">最新消息</span>
-							</span>
-						</a>
-						<div class="sdt_box" style="height:320px;">
-							<a href="making.html">會長 / 副會長</a>
-							<a href="making.html">秘書處</a>
-							<a href="making.html">公關部</a>
-							<a href="making.html">文宣部</a>
-							<a href="making.html">權益部</a>
-							<a href="making.html">新聞部</a>
-							<a href="making.html">學術部</a>
-							<a href="making.html">活動部</a>
-							<a href="making.html">資訊部</a>
-							<a href="making.html">財務部</a>
-						</div>
-					</li>
-					<li>
-						<a href="download.html">
-							<img src="IMG/nav_bar_pic/3.jpg" alt=""/>
-							<span class="sdt_active"></span>
-							<span class="sdt_wrap">
-								<span class="sdt_link">文件下載</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="other_link.html">
-							<img src="IMG/nav_bar_pic/4.jpg" alt=""/>
-							<span class="sdt_active"></span>
-							<span class="sdt_wrap">
-								<span class="sdt_link">友站連結</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="contact.html">
-							<img src="IMG/nav_bar_pic/5.jpg" alt=""/>
-							<span class="sdt_active"></span>
-							<span class="sdt_wrap">
-								<span class="sdt_link">聯絡我們</span>
-							</span>
-						</a>
-					</li>
-					<li>
-						<a href="making.html">
-							<img src="IMG/nav_bar_pic/6.jpg" alt=""/>
-							<span class="sdt_active"></span>
-							<span class="sdt_wrap">
-								<span class="sdt_link">討論區</span>
-							</span>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
+		<?php include'html/header.html' ?>
 		<div class="BBODY">
 			<div class="content">
 				
@@ -180,11 +94,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="FOOTER">
-			<div class="License">
-				﻿﻿&copy; 2014 by Nation Taiwan Norman University Student Association
-			</div>
-		</div>
+		<?php include 'html/footer.html'; ?>
 	
 	
 	</center>
