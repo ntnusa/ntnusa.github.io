@@ -162,10 +162,10 @@
 					<div class="right_up">
 						<div class="contact">
 							<!-- Facebook 專頁 -->
-							<a href="https://www.facebook.com/NTNUstudentA"><img src="IMG/facebook.png" alt="facebook"></a>
+							<a href="https://www.facebook.com/NTNUstudentA"><img src="IMG/facebook.png" alt="NTNUSA facebook 粉絲專頁"></a>
 							
 							<!-- e-mail -->
-							<a href="mailto:NTNUStudentA@gmail.com"><img src="IMG/email.png" alt="email"></a>
+							<a href="mailto:NTNUStudentA@gmail.com"><img src="IMG/email.png" alt="NTNUSA email"></a>
 							
 							<!-- search form -->
 							<form>
