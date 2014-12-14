@@ -166,9 +166,9 @@
 							<!-- e-mail -->
 							<a href="mailto:NTNUStudentA@gmail.com"><img src="IMG/email.png" alt="email"></a>
 							
+							<!-- search form -->
 							<form>
-								<div style="position:relative;top:5px;display:inline-block;"><input class="search_bar" type="text" id="search" placeholder="search"></div> <!-- search form -->
-								<div style="display:inline-block;"><input class="search_bottom" type="submit" value="搜!"></div>  <!-- button -->
+								<div style="position:relative;top:5px;display:inline-block;"><input class="search_bar" type="text" id="search" placeholder="search"></div> 
 							</form>
 						</div>
 							<!-- 使用 javascript 來做搜尋? -->
@@ -205,12 +205,6 @@
 				<h2 class="calendar_title">活動行事曆</h2>
 				<hr />
 				<div id='calendar' class="calendar"></div>
-				
-				<!--
-				<div class="whatsnext">
-					<img src="IMG/325_570.jpeg">
-				</div>
-				-->
 				
 			</div>
 			

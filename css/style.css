@@ -1,15 +1,7 @@
-
-
-@font-face {
-    font-family: "NotoSans";
-    src: url(../font/NotoSansHant-Regular.otf);
-}
-
 body{
 	background: url(../IMG/bg.jpg) center center fixed no-repeat;
 	-moz-background-size: cover;
 	background-size: cover;
-	font-family:"NotoSans","微軟正黑體";
 	margin:20px;
 	color:#595757;
 }

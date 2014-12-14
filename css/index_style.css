@@ -1,14 +1,4 @@
-
-@font-face {
-    font-family: "NotoSans";
-    src: url(../font/NotoSansHant-Regular.otf);
-}
-
-
 @media only screen and (max-width: 720px) {
-
-	
-
 	.LEFT{
 		display:none;
 	}
@@ -38,10 +28,6 @@
 	.search_bar{
 		font-size:2em;
 		width:80px;
-	}
-	
-	.search_bottom{
-		display:none;
 	}
 	
 	.right_up form{
@@ -181,12 +167,7 @@
 .search_bar{
 	font-size:2em;
 	height:5px;
-	width:80px;
-}
-	
-.search_bottom{
-	height:39px;
-	width:39px;
+	width:120px;
 }
 
 img {
@@ -228,7 +209,11 @@ img {
 }
 
 .appeal{
-	padding-bottom:20px;
+	margin:20px 0;
+}
+
+.appeal a{
+	text-decoration: none;
 }
 
 .appeal:hover > a .complain{
@@ -236,29 +221,17 @@ img {
 }
 
 .complain{
-	background-image: url("../IMG/appeal.png") ;
+	background: url("../IMG/appeal.png") center left;
 	-moz-background-size: cover;
 	background-size: cover;
 	color:#595757;
-	height:60px;
-	font-size:1em;
-	font-family:"微軟正黑體";
-	text-align:center;
-	border-color: #595757;
-	border-style:solid;
-	border-width:1px;
-	padding:5px 0 0 55px;
-	line-height:3.5em;
+	font-size:18px;
+	border: #595757 solid 1px;
+	line-height:3.3em;
 }
-
-.appeal a{
-	text-decoration: none;
-}
-
 
 .Dep_title{
 	background-image: url("../IMG/nav_bar_pic/li.png") ;
-	font-family: "NotoSans","微軟正黑體";
 	-moz-background-size: cover;
 	background-size: cover;
 	color:white;
@@ -286,7 +259,6 @@ img {
 	display:block;
 	width:150px;
 	font-weight: bold;
-	font-family: "NotoSans","微軟正黑體";
 	font-weight: normal;
 	line-height:1.9em;
 	text-decoration: none;
@@ -310,7 +282,6 @@ img {
 }
 
 .calendar_title{
-	font-family: "NotoSans","微軟正黑體";
 	text-align:center;
 	color: DarkBlue ;
 	font-size:1.5em;
