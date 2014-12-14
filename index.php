@@ -163,13 +163,33 @@
 						<div class="contact">
 							<!-- Facebook 專頁 -->
 							<a href="https://www.facebook.com/NTNUstudentA"><img src="IMG/facebook.png" alt="facebook"></a>
+							
 							<!-- e-mail -->
 							<a href="mailto:NTNUStudentA@gmail.com"><img src="IMG/email.png" alt="email"></a>
 							
 							<!-- search form -->
 							<form>
-								<div style="position:relative;top:5px;display:inline-block;"><input class="search_bar" type="text" id="search" placeholder="search"></div> 
+								<div style="position:relative;top:5px;display:inline-block;">
+									<input class="search_bar" type="text" id="search" placeholder="search">
+									<input type="button" id="gosearch" style="display:none;">
+								</div> 
 							</form>
+							<script>
+								$(document).ready(function () {
+									$("#search").keypress(function (event) {
+										if (event.keyCode == 13) {
+											$("#gosearch").trigger("click");
+										}
+									});
+									$("#gosearch").click(function () {
+										<!--停止所有的 form submit 事件-->
+										$("form").submit(function () {
+											return false;
+										});
+										location.href = 'https://www.google.com.tw/#q=site:sa.sa.ntnu.edu.tw +' + encodeURI($("#search").val());
+									});
+								});
+							</script>
 						</div>
 							<!-- 使用 javascript 來做搜尋? -->
 					</div>
@@ -212,6 +232,7 @@
 		
 		<!--版權聲明-->
 		<?php include 'html/footer.html'; ?>
+		
 		
 
 		<script>

@@ -28,6 +28,9 @@
 	.search_bar{
 		font-size:2em;
 		width:80px;
+		position:relative;
+		top:5px;
+		display:inline-block;
 	}
 	
 	.right_up form{
@@ -168,6 +171,9 @@
 	font-size:2em;
 	height:5px;
 	width:120px;
+	position:relative;
+	top:5px;
+	display:inline-block;
 }
 
 img {
