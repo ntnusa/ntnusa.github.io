@@ -54,21 +54,19 @@
 		<div class="BBODY">
 			<div class="content">
 				<h1>財務部</h1>
-				<ul>
-					<li>預算</li>
+					<h2>預算</h2>
 						<ul>
-							<li>第一預算執行期預算書0617</li>
-							<li>第一預算執行期預算書0915</li>
+							<li><a href="#">第一預算執行期預算書0617</a></li>
+							<li><a href="#">第一預算執行期預算書0915</a></li>
 						</ul>
-					<li>增開活動預算</li>
+					<h2>增開活動預算</h2>
 						<ul>
-							<li>議會第一預算執行期常備預算書</li>
+							<li><a href="#">議會第一預算執行期常備預算書</a></li>
 						</ul>	
-					<li>決算（報表）</li>
+					<h2>決算（報表）</h2>
 						<ul>
-							<li>第一預算執行其決算書暨第二期活動預算II</li>
-						</ul>	
-				</ul>
+							<li><a href="#">第一預算執行其決算書暨第二期活動預算II</a></li>
+						</ul>
 			</div>
 		</div>
 		<?php include 'html/footer.html'; ?>

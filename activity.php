@@ -40,10 +40,10 @@
 }
 @media only screen and (min-width: 720px) {
 .BBODY{
-	height:580px;
+	height:980px;
 }
 .content{
-	height:520px;
+	height:920px;
 	padding:30px 70px 30px 70px;
 }
 }
@@ -53,22 +53,25 @@
 		<?php include'html/header.html' ?>
 		<div class="BBODY">
 			<div class="content">
-				<h1>財務部</h1>
-				<ul>
-					<li>預算</li>
-						<ul>
-							<li>第一預算執行期預算書0617</li>
-							<li>第一預算執行期預算書0915</li>
-						</ul>
-					<li>增開活動預算</li>
-						<ul>
-							<li>議會第一預算執行期常備預算書</li>
-						</ul>	
-					<li>決算（報表）</li>
-						<ul>
-							<li>第一預算執行其決算書暨第二期活動預算II</li>
-						</ul>	
-				</ul>
+			<h1>活動部</h1>
+			<h2>資訊站</h2>
+				<h3>學生會行事曆</h3>
+				<p></p>
+				<h3>社團行事曆</h3>
+				<p></p>
+				<h3>打工家教資訊</h3>
+				<p></p>
+				<h3>師大卡</h3>
+				<p></p>
+			<h2>活動照片集</h2>
+				<h3>學生會行事曆</h3>
+				<p></p>
+				<h3>社團行事曆</h3>
+				<p></p>
+				<h3>打工家教資訊</h3>
+				<p></p>
+				<h3>師大卡</h3>
+				<p></p>
 			</div>
 		</div>
 		<?php include 'html/footer.html'; ?>
