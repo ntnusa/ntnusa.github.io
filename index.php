@@ -174,24 +174,16 @@
 							<!-- 使用 javascript 來做搜尋? -->
 					</div>
 					
-					
-					<!-- 會員登入 -->
-					<div class="right_login">
-						<!--<div class="Login">會員登入 <span class="hide">/ Log in</span></div>-->
-					</div>
-					
-					
-					
 					<!--申訴表單-->
 					<div class="appeal">
-						<a href="https://docs.google.com/forms/d/1sI0zRb2134HuF6ZGJOnAmZcTGwDJu09nNAW35YLHzrM/viewform?c=0&w=1"><div class="complain">申訴表單 <span class="hide">/ complain</span></div></a>
+						<a href="http://goo.gl/5TQrPu"><div class="complain">申訴表單</div></a>
 					</div>
 					
 					<!-- 各部門連結 -->
 					<div class="Departments">
 						<div class="Dep_title">各部門 Departments</div>
 						<div class="dep_list">
-								<ul style="list-style-type:none; padding:20px;">
+								<ul>
 									<li><a href="president.php">會長 / 副會長</a></li>
 									<li><a href="secretariat.php">秘書處</a></li>
 									<li><a href="public.php">公關部</a></li>

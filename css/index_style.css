@@ -22,13 +22,10 @@
 
 	.right_up{
 		width:100%;
-		margin-top:1em;
-		margin-bottom:2em;
 	}
 	.contact{
 		background:none;
 		width:100%;
-		display:inline;
 	}
 
 	.contact img{
@@ -39,8 +36,8 @@
 	}
 	
 	.search_bar{
-		height:30px;
-		width:60%;
+		font-size:2em;
+		width:80px;
 	}
 	
 	.search_bottom{
@@ -51,57 +48,27 @@
 		display:inline;
 	}
 
-	.right_login{
-	}
-
-	.right_login:hover > .Login{
-		color:black;
-	}
-
-
-	.Login{
-		background: url("../IMG/Login.png") left center;
-		-moz-background-size: cover;
-		background-size: cover;
-		color:#595757;
-		height:3em;
-		font-size:1em;
-		font-family:"微軟正黑體";
-		text-align:center;
-		border:1px solid gray;
-		padding-top:1%;
-		padding-bottom:1%;
-		line-height:3em;
-	}
-
-	.right_login a{
-		text-decoration: none;
-	}
-
 	.appeal{
-		padding-bottom:10px;
+		margin-top:1em;
+		margin-bottom:2em;
+	}
+	
+	div.appeal:hover a{
+		text-decoration:none;
 	}
 
-	.appeal:hover > a .complain{
+	div.appeal:hover div.complain{
 		color:black;
 	}
 
 	.complain{
 		background: url("../IMG/appeal.png") left center;
-		-moz-background-size: cover;
 		background-size: cover;
 		color:#595757;
-		height:3em;
-		font-size:1em;
-		font-family:"微軟正黑體";
-		text-align:center;
-		border:1px solid gray;
-		padding-top:1%;
-		padding-bottom:1%;
-		line-height:3em;
+		font-size:1.2em;
+		border:1px solid #595757;
+		line-height:2.5em;
 	}
-
-
 
 	.Dep_title{
 		background-image: url("../IMG/nav_bar_pic/li.png") ;
@@ -120,30 +87,36 @@
 		height:auto;
 		font-size:1em;
 		text-align:left;
-		
-	}
-
-	.dep_list ul li a{
-		background:#ccc;
-		color:black;
-		font-size:.75em;
-		font-weight: bold;
-		font-family: "NotoSans","微軟正黑體";
-		font-weight: normal;
-		margin-bottom:.5em;
-		line-height: 3em;
-		text-decoration: none;
-		border:1px solid gray;
 	}
 
 	.dep_list ul{
-		list-style-type:none;
+		padding-top:0em;
+		margin-left:0;
 	}
 
+	
+	.dep_list li{
+		background:#ccc;
+		margin:0.5em 0;
+		border:1px solid gray;
+	}
+	
+	.dep_list ul li a{
+		color:#595757;
+		font-weight: bold;
+		margin-bottom:.5em;
+		line-height: 3em;
+		text-decoration: none;
+	}
 	.dep_list li:hover{
 		background:#555;
-		color:white;
 		border:1px solid gray;
+		cursor:pointer;
+	}
+	
+	.dep_list li:hover a{
+		background:#555;
+		color:white;
 		cursor:pointer;
 	}
 	
@@ -320,7 +293,7 @@ img {
 }
 
 .dep_list ul{
-	list-style-type:disc;
+	padding-top:15px;
 }
 
 .dep_list a:hover{
