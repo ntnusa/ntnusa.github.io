@@ -39,10 +39,10 @@
 }
 @media only screen and (min-width: 720px) {
 .BBODY{
-	height:580px;
+	height:auto;
 }
 .content{
-	height:520px;
+	height:auto;
 	padding:30px 70px 30px 70px;
 }
 }
@@ -52,8 +52,7 @@
 		<?php include'html/header.html' ?>
 		<div class="BBODY">
 			<div class="content">
-				<h1>學術部</h1>
-				
+				<?php include'html/department/academic/academic.html' ?>
 			</div>
 		</div>
 		<?php include 'html/footer.html'; ?>

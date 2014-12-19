@@ -40,10 +40,10 @@
 }
 @media only screen and (min-width: 720px) {
 .BBODY{
-	height:980px;
+	height:auto;
 }
 .content{
-	height:920px;
+	height:auto;
 	padding:30px 70px 30px 70px;
 }
 }
@@ -53,25 +53,7 @@
 		<?php include'html/header.html' ?>
 		<div class="BBODY">
 			<div class="content">
-			<h1>活動部</h1>
-			<h2>資訊站</h2>
-				<h3>學生會行事曆</h3>
-				<p></p>
-				<h3>社團行事曆</h3>
-				<p></p>
-				<h3>打工家教資訊</h3>
-				<p></p>
-				<h3>師大卡</h3>
-				<p></p>
-			<h2>活動照片集</h2>
-				<h3>學生會行事曆</h3>
-				<p></p>
-				<h3>社團行事曆</h3>
-				<p></p>
-				<h3>打工家教資訊</h3>
-				<p></p>
-				<h3>師大卡</h3>
-				<p></p>
+				<?php include'html/department/activity/activity.html' ?>
 			</div>
 		</div>
 		<?php include 'html/footer.html'; ?>

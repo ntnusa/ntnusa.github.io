@@ -39,10 +39,10 @@
 }
 @media only screen and (min-width: 720px) {
 .BBODY{
-	height:580px;
+	height:auto;
 }
 .content{
-	height:520px;
+	height:auto;
 	padding:30px 70px 30px 70px;
 }
 }
@@ -52,22 +52,7 @@
 		<?php include'html/header.html' ?>
 		<div class="BBODY">
 			<div class="content">
-				<h1>財務部</h1>
-				<ul>
-					<li>預算</li>
-						<ul>
-							<li>第一預算執行期預算書0617</li>
-							<li>第一預算執行期預算書0915</li>
-						</ul>
-					<li>增開活動預算</li>
-						<ul>
-							<li>議會第一預算執行期常備預算書</li>
-						</ul>	
-					<li>決算（報表）</li>
-						<ul>
-							<li>第一預算執行其決算書暨第二期活動預算II</li>
-						</ul>	
-				</ul>
+				<?php include'html/department/right/right.html' ?>
 			</div>
 		</div>
 		<?php include 'html/footer.html'; ?>
