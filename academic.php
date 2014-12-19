@@ -3,11 +3,10 @@
 	<head>
 		
 		<!--META TAGs-->
-		<meta name="Description" CONTENT="臺灣師範大學學生自治會的官方網頁，學生會主軸為校務參與、權益爭取、企劃執行和校外交流。"> <!-- 描述 -->
-		<meta name="KeyWords" content="NTNUSA,師大學生會,臺師大,學生自治會,Student Association 18th">  <!-- 關鍵字, 協助SEO -->
+		<meta name="Description" CONTENT="師大學生會學術部用來公布最新消息的頁面。學術部主要負責舉辦校內的個是論壇、影展、講座、音樂會等學術活動。 "> <!-- 描述 -->
+		<meta name="KeyWords" content="師大學生會,NTNUSA,學術部">  <!-- 關鍵字, 協助SEO -->
 		<meta name="Author" CONTENT="學生會資訊部">  <!-- 作者 -->
-		<meta name="Generator" CONTENT="Notepad++">	 <!-- 生產的工具 -->
-		<meta http-equiv="Pragma" CONTENT="no_cache">  <!-- Cache -->		
+		<meta name="Generator" CONTENT="Notepad++">	 <!-- 生產的工具 -->	
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />  <!-- 網站文字編碼 -->
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">   <!-- RWD -->
 		<link rev="made" href="https://www.facebook.com/NTNUstudentA"> <!-- 製作團隊 -->

@@ -3,8 +3,8 @@
 	<head>
 		
 		<!--META TAGs-->
-		<meta name="Description" CONTENT="臺灣師範大學學生自治會的官方網頁，學生會主軸為校務參與、權益爭取、企劃執行和校外交流。"> <!-- 描述 -->
-		<meta name="KeyWords" content="NTNUSA,師大學生會,臺師大,學生自治會,Student Association 18th">  <!-- 關鍵字, 協助SEO -->
+		<meta name="Description" CONTENT="師大學生會新聞部公布最新消息的頁面。新聞部致力於校園內的資訊流通，對內主要負責編輯學生會刊，對外方面，聯繫各大媒體、召開記者會等，亦為本部的職責。"> <!-- 描述 -->
+		<meta name="KeyWords" content="師大學生會,NTNUSA,新聞部">  <!-- 關鍵字, 協助SEO -->
 		<meta name="Author" CONTENT="學生會資訊部">  <!-- 作者 -->
 		<meta name="Generator" CONTENT="Notepad++">	 <!-- 生產的工具 -->
 		<meta http-equiv="Pragma" CONTENT="no_cache">  <!-- Cache -->		
