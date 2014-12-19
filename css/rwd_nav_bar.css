@@ -1,0 +1,45 @@
+﻿li, li a{
+	color:white;
+	text-decoration:none;
+}
+
+.small_nav_bar{
+	background:rgba(0,0,255,1);
+	color:white;
+	width:72%;
+	height:1em;
+	padding:0.5em;
+	display:inline-block;
+}
+
+.main-botton{
+	background:rgba(0,0,255,1);
+	color:white;
+	width:13%;
+	height:1em;
+	padding:0.5em 0.5em;
+}
+
+.botton{
+	display:inline-block;
+	z-index:1;
+}
+
+.dropdown-toggle{
+	position:absolute;
+	top:-100em;
+}
+
+.choice{
+	background:rgba(0,0,255,0.7);
+	list-style-type:none;
+	padding:0.5em 0;
+	margin-left:-2.5em;
+}
+
+.hide_section{
+	background:rgba(0,0,255,0.5);
+	list-style-type:none;
+	padding:0.5em 0;
+	margin-left:-5em;
+}

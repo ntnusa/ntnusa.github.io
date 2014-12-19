@@ -1,5 +1,4 @@
-﻿<div class="small_hide" style="display:none;">
-	<div class="nav_bar">
+﻿<div class="nav_bar small_hide">
 		<ul id="sdt_menu" class="sdt_menu">
 			<li>
 				<a href="/">
@@ -83,64 +82,10 @@
 			</li>
 		</ul>
 	</div>
-</div>
 
-
-
-<style>
-	
-	body{text-align:center;}
-	
-	li, li a{
-		color:white;
-		text-decoration:none;
-	}
-	
-	.nav_bar{
-		background:rgba(0,0,255,1);
-		color:white;
-		width:72%;
-		height:1em;
-		padding:0.5em;
-		display:inline-block;
-	}
-	
-	.main-botton{
-		background:rgba(0,0,255,1);
-		color:white;
-		width:13%;
-		height:1em;
-		padding:0.5em 0.5em;
-	}
-	
-	.botton{
-		display:inline-block;
-		z-index:1;
-	}
-	
-	.dropdown-toggle{
-		position:relative;
-		top:-100em;
-	}
-	
-	.choice{
-		background:rgba(0,0,255,0.7);
-		list-style-type:none;
-		padding:0.5em 0;
-		margin-left:-2.5em;
-	}
-	
-	.hide_section{
-		background:rgba(0,0,255,0.5);
-		list-style-type:none;
-		padding:0.5em 0;
-		margin-left:-5em;
-	}
-	
-</style>
 
 <div class="big_hide">
-	<div class="nav_bar">選單列</div>
+	<div class="small_nav_bar">選單列</div>
 	<div class="main-botton botton" onclick='openbar()'>V</div>
 	<ul class="dropdown-toggle" id="dropdown-toggle">
 		<li class="choice">
@@ -202,15 +147,17 @@
 	function openbar()
 	{   
 		var bar = document.getElementById("dropdown-toggle");
-		if(bar.style.top === "-1em")
+		if(bar.style.top === "0em")
 		{
 			bar.style.top="-100em";
 			document.getElementById("aboutus").style.display="none";
 			document.getElementById("dpnews").style.display="none";
+			bar.style.position="absolute";
 		}
 		else
 		{
-			bar.style.top="-1em";
+			bar.style.position="relative";
+			bar.style.top="0em";
 			document.getElementById("aboutus").style.display="none";
 			document.getElementById("dpnews").style.display="none";
 		}

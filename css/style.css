@@ -7,7 +7,6 @@ body{
 }
 
 
-// mobile
 @media only screen and (max-width: 720px) {
 	.small_hide{
 		display:none;
@@ -128,11 +127,11 @@ body{
 }
 
 
-// desktop
 @media only screen and (min-width: 720px) {
 
 .big_hide{
 	display:none;
+	margin-bottom:1em;
 }
 	p{
 		color:#595757;

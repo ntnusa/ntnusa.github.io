@@ -1,4 +1,5 @@
- <!DOCTYPE html>
+
+		<link type="text/css" media="screen" rel="stylesheet" href="css/rwd_nav_bar.css"/>  <!-- rwd_nav_bar 樣式表 --> <!DOCTYPE html>
 <html>
 	<head>
 		
@@ -22,6 +23,7 @@
 		<link href="IMG/favicon.ico" type="image/x-icon" rel="shortcut icon">   <!-- title 前的圖片 -->
 		<link href="css/style.css" type="text/css" media="screen" rel="stylesheet"/>
 		<link href="css/nav_bar.css" type="text/css" media="screen" rel="stylesheet"/>
+		<link type="text/css" media="screen" rel="stylesheet" href="css/rwd_nav_bar.css"/>  <!-- rwd_nav_bar 樣式表 -->
 		
 		<!-- nav_bar 的javascript 相關程式碼  -->
 		<script src='javascript/jquery.min.js'></script>

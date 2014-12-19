@@ -24,6 +24,7 @@
        <link type="text/css" media="screen" rel="stylesheet" href="css/style.css"/>   <!-- 主要樣式表 -->
 		<link type="text/css" media="screen" rel="stylesheet" href="css/index_style.css"/>   <!-- 主頁樣式表 -->
 		<link type="text/css" media="screen" rel="stylesheet" href="css/nav_bar.css"/>  <!-- nav_bar 樣式表 -->
+		<link type="text/css" media="screen" rel="stylesheet" href="css/rwd_nav_bar.css"/>  <!-- rwd_nav_bar 樣式表 -->
 		<link type="text/css" rel='stylesheet'  href='css/fullcalendar.css'/>	<!-- 行事曆樣式表 -->
 		
 		<!-- CAROUSEL styles -->
@@ -38,6 +39,8 @@
 		<!-- nav_bar 的javascript 相關程式碼  -->
 		<script type="text/javascript" src="javascript/nav_bar.js"></script>
         <script type="text/javascript" src="javascript/nav_bar_function.js"></script>
+		
+		
 		
 		<style>
 		
