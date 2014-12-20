@@ -1,7 +1,5 @@
 body{
-	background: url(../IMG/bg.jpg) center center fixed no-repeat;
-	-moz-background-size: cover;
-	background-size: cover;
+	margin:20px 94px;
 	color:#595757;
 }
 
@@ -37,7 +35,6 @@ a{
 ul{
 	color:#595757;
 	list-style-type:none;
-	text-align:left;
 }
 
 li{
@@ -83,6 +80,9 @@ h1.main_title{
 	}
 	
 	body{
+		background: url(../IMG/bg-small.jpg) center center fixed no-repeat;
+		-moz-background-size: cover;
+		background-size: cover;
 		padding:0;
 		margin:5%;
 	}
@@ -110,13 +110,14 @@ h1.main_title{
 		padding-left:0;
 		padding-bottom:2em;
 		font-size: 1em;
+		text-align:center;
 	}
 	
 	.HEADER{
 		background:rgba(255,255,255,0.7); 
 		width:80%;
 		height:auto;
-		padding: 0 10% 0 10%;
+		padding: 0 10%;
 		float:left;
 	}
 	
@@ -129,7 +130,7 @@ h1.main_title{
 	
 	h1.main_title{
 		margin:0;
-		padding:10% 0;
+		padding:5% 0 0;
 	}
 
 	.nav_bar{
@@ -172,15 +173,17 @@ h1.main_title{
 
 
 @media only screen and (min-width: 720px) {
-
-	body{
-		margin:20px;
-	}
-
+	
 	.big_hide{
 		display:none;
 	}
 	
+	body{
+		background: url(../IMG/bg.jpg) center center fixed no-repeat;
+		-moz-background-size: cover;
+		background-size: cover;
+	}
+
 	p{
 		padding-bottom:20px;
 		font-size: 20px;
@@ -208,6 +211,12 @@ h1.main_title{
 		text-align:left;
 		line-height:1.5em;
 		font-size: 20px;
+		text-align:left;
+	}
+	
+	img {
+		height: auto;
+		max-width: 100%;
 	}
 
 	.HEADER{
@@ -231,12 +240,14 @@ h1.main_title{
 		padding-bottom: 10px;
 		height:10px;
 	}
-
+	
 	.BBODY{
+		width:1120px;
 		margin-top: 10px;
 		margin-bottom: -10px;
 		padding:20px 20px 20px 20px;
 	}
+
 
 	.FOOTER{
 		background: rgba(255, 255, 255, 0.5); 

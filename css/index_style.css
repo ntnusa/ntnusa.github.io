@@ -61,9 +61,9 @@
 
 	.Dep_title{
 		background-image: url("../IMG/nav_bar_pic/li.png") ;
-		font-family: "NotoSans","微軟正黑體";
 		-moz-background-size: cover;
 		background-size: cover;
+		font-family: "NotoSans","微軟正黑體";
 		color:white;
 		font-size:1em;
 		line-height:.8em;

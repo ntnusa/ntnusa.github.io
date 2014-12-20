@@ -59,7 +59,7 @@
 		<?php include'html/header.html' ?>
 		<div class="BBODY">
 			<div class="content">
-				<h1>國立台灣師範大學學生自治會</h1>
+				<h1>國立台灣師範大學<span class="big_hide"><br /></span>學生自治會</h1>
 				<p>
 				本會宗旨：「培養本校學生自治能力及民主理念，並增進學生權益。」<br /><br />
 				
