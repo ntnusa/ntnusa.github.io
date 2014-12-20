@@ -49,10 +49,10 @@
 }
 @media only screen and (min-width: 720px) {
 	.BBODY{
-		height:3800px;
+		height:3400px;
 	}
 	.content{
-		height:3740px;
+		height:3340px;
 		padding:30px 70px 30px 70px;
 	}
 	ul{
@@ -70,7 +70,7 @@
 		<div class="BBODY">
 			<div class="content">
 				<h1>國立臺灣師範大學學生自治會組織章程</h1>
-				<ul style="margin-left:-48px;">
+				<ul>
 					<li>第 一 章 &nbsp;&nbsp; 總則
 						<ul>
 							<li>第 一 條 &nbsp;&nbsp; 本章程依「國立臺灣師範大學組織規程」第五十四條訂定之。</li>

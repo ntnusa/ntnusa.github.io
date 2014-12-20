@@ -2,165 +2,31 @@ body{
 	background: url(../IMG/bg.jpg) center center fixed no-repeat;
 	-moz-background-size: cover;
 	background-size: cover;
-	margin:20px;
 	color:#595757;
 }
 
-
-@media only screen and (max-width: 720px) {
-	.small_hide{
-		display:none;
-	}
-	
-	
-	
-	body{
-		padding:0;
-		margin:5%;
-	}
-	p{
-		color:#595757;
-		text-align:left;
-		line-height:1.5em;
-		font-size: 1em;
-		padding-bottom:3em;
-		font-size: 20px;
-	}	
-
-	h1{
-		color:#595757;
-		text-align:center;
-		font-weight:1px;
-		font-size: 1.4em;
-		padding-bottom:20px;
-	}
-
-	h2{
-		color:#595757;
-		text-align:center;
-		font-weight:3px;
-		font-size: 1.2em;
-	}
-	
-	a{
-		color:#4B4A92;
-		text-decoration:none;
-	}
-
-	ul{
-		color:#595757;
-		list-style-type:none;
-		text-align:center;
-		line-height:1.5em;
-		padding-left:0;
-		padding-bottom:2em;
-		font-size: 1em;
-	}
-
-	ul li{
-		color:#595757;
-	}
-
-	img {
-		height: auto;
-		max-width: 100%;
-	}
-	
-	.HEADER{
-		background:rgba(255,255,255,0.7); 
-		width:80%;
-		height:auto;
-		padding: 0 10% 0 10%;
-		margin:0;
-		float:left;
-		border-radius: 10px 10px 0 0;
-	}
-	.header_photo{
-		height:auto;
-		width:100%;
-		padding:0px;
-		margin:0px;
-		float:left;
-		border-radius: 10px 10px 0 0;
-	}
-	h1.main_title{
-		margin:0;
-		padding-top:10%;
-		padding-bottom:10px;
-		text-align:center;
-	}
-	.BBODY{
-		background:rgba(255,255,255,0.5); 
-		width:100%;
-		margin-top:2%;
-		margin-bottom:2%;
-		float:left;
-	}
-	.content{
-		background:rgba(255,255,255,0.7); 
-		width:80%;
-		padding:5% 10% 0 10%;
-		margin:0px;
-		float:left;
-	}
-	.FOOTER{
-		background:rgba(255,255,255,0.7); 
-		width:100%;
-		height:auto;
-		margin-bottom:2%;
-		float:left;
-		border-radius: 0 0 10px 10px;
-	}
-
-	.License{
-		background:rgba(255,255,255,0.7);
-		color:#595757;
-		width:96%;
-		height:auto;
-		font-size:1em;
-		padding: 2%;
-		margin:0px;
-		float:left;
-		border-radius: 0 0 10px 10px;
-	}
-	
-}
-
-
-@media only screen and (min-width: 720px) {
-
-.big_hide{
-	display:none;
-	margin-bottom:1em;
-}
-	p{
-		color:#595757;
-		text-align:left;
-		line-height:1.5em;
-		font-size: 20px;
-		padding-bottom:20px;
-	}	
+p{
+	color:#595757;
+	text-align:left;
+	line-height:1.5em;
+}	
 
 h1{
 	color:#595757;
 	text-align:left;
-	font-weight:1px;
-	font-size: 28px;
-	padding-bottom:22px;
+	font-weight:2px;
 }
 
 h2{
 	color:#595757;
 	text-align:left;
-	font-weight:3px;
-	font-size: 20px;
+	font-weight:1px;
 }
 
 h3{
 	color:#595757;
 	text-align:left;
-	font-weight:3px;
-	font-size: 18px;
+	font-weight:1px;
 }
 
 a{
@@ -172,84 +38,217 @@ ul{
 	color:#595757;
 	list-style-type:none;
 	text-align:left;
-	line-height:1.5em;
-	font-size: 20px;
 }
 
-ul li{
+li{
 	color:#595757;
 }
 
 img {
-    height: auto;
-    max-width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
-.HEADER{
-	background-color: rgba(255,255,255,0.5); 
-	width:1120px;
-	height:200px;
-	float:center;
-	padding: 20px 20px 10px 20px;
+div.HEADER, div.header_photo{
 	border-radius: 10px 10px 0 0;
-	text-align: center;
+	margin:0;
 }
-
-.header_photo{
-	background-color: rgba(255,255,255,0.8); 
-	float:center;
-	width:1080px;
-	height:130px;
-	border-radius: 10px 10px 0 0;
-	padding: 10px 20px 10px 20px;
-}
-
 
 h1.main_title{
 	text-align:center;
 }
 
-.header_photo img{
-}
-
-.nav_bar{
-	float:left;
-	text-align:center;
-	padding-bottom: 10px;
-	height:10px;
-}
-
 .BBODY{
-	background-color: rgba(255, 255, 255, 0.5);
-	width:1120px;
-	float:center;
-	margin-top: 10px;
-	margin-bottom: -10px;
-	padding:20px 20px 20px 20px;
+	background: rgba(255, 255, 255, 0.5);
 }
 
 .content{
 	background-color: rgba(255, 255, 255, 0.8); 
-	float:center;
 }
 
-.FOOTER{
-	background: rgba(255, 255, 255, 0.5);  
-	height:35px;
-	width:1120px;
-	padding:10px 20px 10px 20px;
-	float:center;
-	border-radius: 0 0 10px 10px;
-	margin-bottom:40px;
+.FOOTER{ 
+		border-radius: 0 0 10px 10px;
 }
 
 .License{
 	background-color: rgba(255, 255, 255,0.7);
-	width:1110px;
 	color:#777;
 	text-align: center;
-	padding: 5px;
 	border-radius: 0 0 10px 10px;
+}		
+		
+@media only screen and (max-width: 720px) {
+	.small_hide{
+		display:none;
+	}
+	
+	body{
+		padding:0;
+		margin:5%;
+	}
+	p{
+		font-size: 1em;
+		padding-bottom:2em;
+	}	
+
+	h1{
+		text-align:center;
+		font-size: 1.5em;
+		margin-bottom:0.5em;
+	}
+
+	h2{
+		font-size: 1.3em;
+	}
+	
+	h3{
+		font-size: 1.1em;
+	}
+
+	ul{
+		line-height:1.5em;
+		padding-left:0;
+		padding-bottom:2em;
+		font-size: 1em;
+	}
+	
+	.HEADER{
+		background:rgba(255,255,255,0.7); 
+		width:80%;
+		height:auto;
+		padding: 0 10% 0 10%;
+		float:left;
+	}
+	
+	.header_photo{
+		height:auto;
+		width:100%;
+		padding:0px;
+		float:left;
+	}
+	
+	h1.main_title{
+		margin:0;
+		padding:10% 0;
+	}
+
+	.nav_bar{
+		text-align:center;
+		padding-bottom: 1%;
+	}
+	
+	.BBODY{
+		width:100%;
+		margin-top:2%;
+		margin-bottom:2%;
+		float:left;
+	}
+	
+	.content{
+		width:80%;
+		padding:5% 10% 0 10%;
+		margin:0px;
+		float:left;
+	}
+	
+	.FOOTER{
+		background: rgba(255, 255, 255, 0.7); 
+		height:auto;
+		width:100%;
+		margin-bottom:2%;
+		float:left;
+	}
+
+	.License{
+		width:96%;
+		height:auto;
+		font-size:1em;
+		padding: 2%;
+		margin:0px;
+		float:left;
+	}
+	
 }
+
+
+@media only screen and (min-width: 720px) {
+
+	body{
+		margin:20px;
+	}
+
+	.big_hide{
+		display:none;
+	}
+	
+	p{
+		padding-bottom:20px;
+		font-size: 20px;
+	}	
+
+	h1{
+		font-size: 28px;
+		padding-bottom:22px;
+	}
+
+	h2{
+		color:#595757;
+		text-align:left;
+		font-weight:1px;
+		font-size: 20px;
+	}
+
+	h3{
+		font-size: 18px;
+	}
+
+	ul{
+		color:#595757;
+		list-style-type:none;
+		text-align:left;
+		line-height:1.5em;
+		font-size: 20px;
+	}
+
+	.HEADER{
+		background-color: rgba(255,255,255,0.5); 
+		width:1120px;
+		height:200px;
+		padding: 20px 20px 10px 20px;
+	}
+
+	.header_photo{
+		background-color: rgba(255,255,255,0.8); 
+		float:center;
+		width:1080px;
+		height:130px;
+		padding: 10px 20px 10px 20px;
+	}
+
+	.nav_bar{
+		float:left;
+		text-align:center;
+		padding-bottom: 10px;
+		height:10px;
+	}
+
+	.BBODY{
+		margin-top: 10px;
+		margin-bottom: -10px;
+		padding:20px 20px 20px 20px;
+	}
+
+	.FOOTER{
+		background: rgba(255, 255, 255, 0.5); 
+		height:35px;
+		width:1120px;
+		padding:10px 20px 10px 20px;
+		margin-bottom:40px;
+	}
+
+	.License{
+		width:1110px;
+		padding: 5px;
+	}
 
 }
