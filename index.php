@@ -11,6 +11,7 @@
 		<meta http-equiv="Pragma" CONTENT="no_cache">  <!-- Cache -->		
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />  <!-- 網站文字編碼 -->
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">   <!-- RWD -->
+		<meta http-equiv="content-language" content="zh-TW">
 		<link rev="made" href="https://www.facebook.com/NTNUstudentA"> <!-- 製作團隊 -->
 		<!-- ./META TAGs-->
 		
@@ -107,40 +108,40 @@
 					<div id="myCarousel" class="carousel slide">
 						<div class="carousel-inner">
 							<div class="item active">
-								<img src="IMG/slide/slide-01.jpg" alt="">
+								<img src="IMG/slide/slide-01.jpg" alt="第一個活動">
 								<div class="container">
 									<div class="carousel-caption">
-										<h1>［12月自由影展］</h1>
+										<h2>［12月自由影展］</h2>
 										<p class="lead">自由對你來說是什麼？看似能夠無憂無慮的做自己想做的事，但真的是如此嗎？</p>
 										<a class="btn btn-large btn-primary" href="http://on.fb.me/1qhfD6k">不自由毋寧死!</a>
 									</div>
 								</div>
 							</div>
 							<div class="item">
-								<img src="IMG/slide/slide-02.jpg" alt="">
+								<img src="IMG/slide/slide-02.jpg" alt="第二個活動">
 								<div class="container">
 									<div class="carousel-caption">
-										<h1>【師大藝磚節】</h1>
+										<h2>【師大藝磚節】</h2>
 										<p class="lead">每年春天，各個校園藝術季不停地開花，鄰近的學校們享受著自己的藝術慶典，那師大呢？</p>
 										<a class="btn btn-large btn-primary" href="https://fb.me/NTNUAHF">加入我們吧！</a>
 									</div>
 								</div>
 							</div>
 							<div class="item">
-								<img src="IMG/slide/slide-03.jpg" alt="">
+								<img src="IMG/slide/slide-03.jpg" alt="第三個活動">
 								<div class="container">
 									<div class="carousel-caption">
-										<h1>【12月叩叩叩資訊站】</h1>
+										<h2>【12月叩叩叩資訊站】</h2>
 										<p class="lead">這是學期的最後一次資訊站囉~~最新一期的師大錄可以到攤位免費索取~</p>
 										<a class="btn btn-large btn-primary" href="http://on.fb.me/1z506Hp">我也要拿!</a>
 									</div>
 								</div>
 							</div>
 							<div class="item">
-								<img src="IMG/slide/slide-04.jpg" alt="">
+								<img src="IMG/slide/slide-04.jpg" alt="第四個活動">
 								<div class="container">
 									<div class="carousel-caption">
-										<h1>【萬用師大卡!!】</h1>
+										<h2>【萬用師大卡!!】</h2>
 										<p class="lead">身為師大人的各位都拿到這張傳說中看電影可以立馬省70元的師大卡了嗎？</p>
 										<a class="btn btn-large btn-primary" href="http://on.fb.me/1xo9Riq">更多優惠！</a>
 									</div>
@@ -153,7 +154,7 @@
 					<!-- /.carousel -->
 					
 					<div class="every_dep">
-						<img src="IMG/720_340.jpg">
+						<img src="IMG/720_340.jpg" alt="暫定">
 					</div>
 					
 				</div>
