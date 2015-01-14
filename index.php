@@ -228,8 +228,8 @@
 			<div class="time_content">
 				<h2 class="calendar_title">活動行事曆</h2>
 				<hr />
-				<div id='calendar' class="calendar"></div>
-				
+				<!--<div id='calendar' class="calendar"></div>-->
+				<iframe src="https://www.google.com/calendar/embed?src=l884dpdsk5afqpdchqlf0i1eok%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 1" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
 			</div>
 			
 		</div>
