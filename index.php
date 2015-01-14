@@ -26,10 +26,8 @@
 		<link type="text/css" media="screen" rel="stylesheet" href="css/index_style.css"/>   <!-- 主頁樣式表 -->
 		<link type="text/css" media="screen" rel="stylesheet" href="css/nav_bar.css"/>  <!-- nav_bar 樣式表 -->
 		<link type="text/css" media="screen" rel="stylesheet" href="css/rwd_nav_bar.css"/>  <!-- rwd_nav_bar 樣式表 -->
-		<link type="text/css" rel='stylesheet'  href='css/fullcalendar.css'/>	<!-- 行事曆樣式表 -->
 		
 		<!-- CAROUSEL styles -->
-		
 		<link href="css/carousel.css" type="text/css" media="screen" rel="stylesheet"/>
 	
 		
@@ -67,24 +65,6 @@
 
 
 		</style>
-		
-<script>
-
-	$(document).ready(function() {
-
-		$('#calendar').fullCalendar({
-			defaultDate: '2014-12-10',
-			editable: false,
-			eventLimit: true, // 允許"more"標籤
-			events: 
-				<?php include 'activity.json'?>
-		});
-		
-	});
-
-</script>
-
-
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="/Scripts/bootstrap/html5shiv.js"></script>
@@ -224,11 +204,10 @@
 				</div>
 			</div>
 			
-			<!--行事曆及任務表單-->
+			<!--行事曆-->
 			<div class="time_content">
-				<h2 class="calendar_title">活動行事曆</h2>
+				<h2 class="calendar_title">臺灣師範大學學生自治會行事曆</h2>
 				<hr />
-				<!--<div id='calendar' class="calendar"></div>-->
 				<iframe src="https://www.google.com/calendar/embed?src=l884dpdsk5afqpdchqlf0i1eok%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 1" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
 			</div>
 			
@@ -247,10 +226,6 @@
 			}(window.jQuery)
 		</script>
 		<script src="javascript/holder.js"></script>
-	
-		 <!-- 行事曆的 javascript code -->		 
-		<script src='javascript/moment.min.js'></script> 
-		<script src='javascript/fullcalendar.min.js'></script>
        
 	</center>
 	</body>
