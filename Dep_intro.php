@@ -144,16 +144,16 @@
 			<div class="content">
 				<img src="IMG/people/bird.gif" class="hide" style="float:left;height:50px;"><h1>部門介紹</h1>
 				<p>學生工作會分為九大部門：
-				<a href="#secretariat" target="_self">秘書</a>、
-				<a href="#right" target="_self">權益</a>、
-				<a href="#academic" target="_self">學術</a>、
-				<a href="#public" target="_self">公關</a>、
-				<a href="#activity" target="_self">活動</a>、
-				<a href="#publication" target="_self">文宣</a>、
-				<a href="#newsdp" target="_self">新聞</a>、
-				<a href="#info" target="_self">資訊</a>
+				<a href="#secretariat" target="_self">秘書處</a>、
+				<a href="#right" target="_self">權益部</a>、
+				<a href="#academic" target="_self">學術部</a>、
+				<a href="#public" target="_self">公關部</a>、
+				<a href="#activity" target="_self">活動部</a>、
+				<a href="#publication" target="_self">文宣部</a>、
+				<a href="#newsdp" target="_self">新聞部</a>、
+				<a href="#info" target="_self">資訊部</a>
 				與
-				<a href="#finance" target="_self">財務</a>
+				<a href="#finance" target="_self">財務部</a>
 				。以下簡介各部會執掌與業務:</p>
 				<h2>會長 副會長 </h2>
 				<div class="photo_galley">
@@ -163,11 +163,11 @@
 					</div>
 					<div class="pre_3box">
 						<IMG src="IMG/people/vpre1.jpg">
-						<p>美術105陳倢伃</p>
+						<p>陳倢伃 美術105</p>
 					</div>
 					<div class="pre_3box">
 						<IMG src="IMG/people/vpre2.png">
-						<p>物理104劉致</p>
+						<p>劉致維 物理104</p>
 					</div>
 				</div>
 				<h2 id="secretariat">秘書處</h2>
@@ -215,11 +215,11 @@
 				<div class="photo_galley">
 					<div class="pre_box">
 						<IMG src="IMG/people/equ_pre.jpg">
-						<p>部長 國文105戴宜光</p>
+						<p>部長 戴宜光 國文105</p>
 					</div>
 					<div class="pre_box">
 						<IMG src="IMG/people/equ_vpre.jpg">
-						<p>次長 工教104莊士緯</p>
+						<p>次長 莊士緯 工教104</p>
 					</div>
 				</div>
 				<h2 id="public">公關部</h2>
@@ -231,11 +231,11 @@
 				<div class="photo_galley">
 					<div class="pre_box">
 						<IMG src="IMG/people/pr_pre.jpg">
-						<p>部長 東亞105 楊有騰</p>
+						<p>部長 楊有騰 東亞105 </p>
 					</div>
 					<div class="pre_box">
 						<IMG src="IMG/people/pr_vpre.jpg">
-						<p>次長 英語104 林庭如</p>
+						<p>次長 林庭如 英語104 </p>
 					</div>
 				</div>
 				<h2 id="academic">學術部</h2>

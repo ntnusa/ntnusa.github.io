@@ -68,7 +68,7 @@
 						<li>二、立法權：<a href="https://fb.me/ntnustudentcongress" target="_blank">學生議會</a></li>
 						<li>三、司法權：<a href="https://fb.me/ntnusj" target="_blank">學生評議會</a></li>
 					</ul>
-				</p>
+				</p></br>
 
 				<p>
 					行政權之學生工作會依《<a href="http://ppt.cc/3e-8" target="_blank">國立臺灣師範大學學生自治會組織章程</a>》

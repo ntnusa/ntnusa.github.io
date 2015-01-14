@@ -64,14 +64,13 @@ h1.main_title{
 }
 
 .FOOTER{ 
-		border-radius: 0 0 10px 10px;
+    
 }
 
 .License{
 	background-color: rgba(255, 255, 255,0.7);
 	color:#777;
 	text-align: center;
-	border-radius: 0 0 10px 10px;
 }		
 		
 @media only screen and (max-width: 720px) {
