@@ -8,3 +8,10 @@
 讓師大變成更好的地方。<br />
 	
 培養資訊人才，以專業技術為學生服務。<br />
+
+<h2>網站位置</h2>
+<a href="http://sa.sa.ntnu.edu.tw">http://sa.sa.ntnu.edu.tw</a>
+
+<h2>聯絡資訊</h2>
+<a href="mailto:NTNUSA19th@gmail.com">Email</a>
+<a href="https://www.facebook.com/NTNUstudentA">Facebook</a>
