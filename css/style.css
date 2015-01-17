@@ -7,7 +7,7 @@ p{
 	color:#595757;
 	text-align:left;
 	line-height:1.5em;
-}	
+}
 
 h1{
 	color:#595757;
@@ -60,24 +60,24 @@ h1.main_title{
 }
 
 .content{
-	background-color: rgba(255, 255, 255, 0.8); 
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
-.FOOTER{ 
-    
+.FOOTER{
+
 }
 
 .License{
 	background-color: rgba(255, 255, 255,0.7);
 	color:#777;
 	text-align: center;
-}		
-		
+}
+
 @media only screen and (max-width: 720px) {
 	.small_hide{
 		display:none;
 	}
-	
+
 	body{
 		background: url(../IMG/bg-small.jpg) center center fixed no-repeat;
 		-moz-background-size: cover;
@@ -88,7 +88,7 @@ h1.main_title{
 	p{
 		font-size: 1em;
 		padding-bottom:2em;
-	}	
+	}
 
 	h1{
 		text-align:center;
@@ -99,7 +99,7 @@ h1.main_title{
 	h2{
 		font-size: 1.3em;
 	}
-	
+
 	h3{
 		font-size: 1.1em;
 	}
@@ -111,22 +111,22 @@ h1.main_title{
 		font-size: 1em;
 		text-align:center;
 	}
-	
+
 	.HEADER{
-		background:rgba(255,255,255,0.7); 
+		background:rgba(255,255,255,0.7);
 		width:80%;
 		height:auto;
 		padding: 0 10%;
 		float:left;
 	}
-	
+
 	.header_photo{
 		height:auto;
 		width:100%;
 		padding:0px;
 		float:left;
 	}
-	
+
 	h1.main_title{
 		margin:0;
 		padding:5% 0 0;
@@ -136,23 +136,23 @@ h1.main_title{
 		text-align:center;
 		padding-bottom: 1%;
 	}
-	
+
 	.BBODY{
 		width:100%;
 		margin-top:2%;
 		margin-bottom:2%;
 		float:left;
 	}
-	
+
 	.content{
 		width:80%;
 		padding:5% 10% 0 10%;
 		margin:0px;
 		float:left;
 	}
-	
+
 	.FOOTER{
-		background: rgba(255, 255, 255, 0.7); 
+		background: rgba(255, 255, 255, 0.7);
 		height:auto;
 		width:100%;
 		margin-bottom:2%;
@@ -167,16 +167,16 @@ h1.main_title{
 		margin:0px;
 		float:left;
 	}
-	
+
 }
 
 
 @media only screen and (min-width: 720px) {
-	
+
 	.big_hide{
 		display:none;
 	}
-	
+
 	body{
 		background: url(../IMG/bg.jpg) center center fixed no-repeat;
 		-moz-background-size: cover;
@@ -186,7 +186,7 @@ h1.main_title{
 	p{
 		padding-bottom:20px;
 		font-size: 20px;
-	}	
+	}
 
 	h1{
 		font-size: 28px;
@@ -197,11 +197,11 @@ h1.main_title{
 		color:#595757;
 		text-align:left;
 		font-weight:1px;
-		font-size: 20px;
+		font-size: 26px;
 	}
 
 	h3{
-		font-size: 18px;
+		font-size: 22px;
 	}
 
 	ul{
@@ -212,21 +212,21 @@ h1.main_title{
 		font-size: 20px;
 		text-align:left;
 	}
-	
+
 	img {
 		height: auto;
 		max-width: 100%;
 	}
 
 	.HEADER{
-		background-color: rgba(255,255,255,0.5); 
+		background-color: rgba(255,255,255,0.5);
 		width:1120px;
 		height:200px;
 		padding: 20px 20px 10px 20px;
 	}
 
 	.header_photo{
-		background-color: rgba(255,255,255,0.8); 
+		background-color: rgba(255,255,255,0.8);
 		float:center;
 		width:1080px;
 		height:130px;
@@ -239,7 +239,7 @@ h1.main_title{
 		padding-bottom: 10px;
 		height:10px;
 	}
-	
+
 	.BBODY{
 		width:1120px;
 		margin-top: 10px;
@@ -249,7 +249,7 @@ h1.main_title{
 
 
 	.FOOTER{
-		background: rgba(255, 255, 255, 0.5); 
+		background: rgba(255, 255, 255, 0.5);
 		height:35px;
 		width:1120px;
 		padding:10px 20px 10px 20px;

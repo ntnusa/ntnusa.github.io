@@ -1,34 +1,34 @@
  <!DOCTYPE html>
 <html>
 	<head>
-		
+
 		<!--META TAGs-->
 		<meta name="Description" CONTENT="師大學生會自治規程頁面。"> <!-- 描述 -->
 		<meta name="KeyWords" content="師大學生會,NTNUSA,自治規程">  <!-- 關鍵字, 協助SEO -->
 		<meta name="Author" CONTENT="學生會資訊部">  <!-- 作者 -->
 		<meta name="Generator" CONTENT="Notepad++">	 <!-- 生產的工具 -->
-		<meta http-equiv="Pragma" CONTENT="no_cache">  <!-- Cache -->		
+		<meta http-equiv="Pragma" CONTENT="no_cache">  <!-- Cache -->
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />  <!-- 網站文字編碼 -->
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">   <!-- RWD -->
 		<link rev="made" href="https://www.facebook.com/NTNUstudentA"> <!-- 製作團隊 -->
 		<!--META TAGs-->
-		
+
 		<title>師大學生會．NTNUSA</title>
-		
+
 		<!-- bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
-		
+
 		<link href="IMG/favicon.ico" type="image/x-icon" rel="shortcut icon">   <!-- title 前的圖片 -->
 		<link href="css/style.css" type="text/css" media="screen" rel="stylesheet"/>
 		<link href="css/nav_bar.css" type="text/css" media="screen" rel="stylesheet"/>
 		<link type="text/css" media="screen" rel="stylesheet" href="css/rwd_nav_bar.css"/>  <!-- rwd_nav_bar 樣式表 -->
-		
+
 		<!-- nav_bar 的javascript 相關程式碼  -->
 		<script src='javascript/jquery.min.js'></script>
 		<script type="text/javascript" src="javascript/nav_bar.js"></script>
 		<script type="text/javascript" src="javascript/nav_bar_function.js"></script>
-		
+
 	</head>
 	<style>
 @media only screen and (max-width: 720px) {
@@ -69,7 +69,7 @@
 		<?php include'html/header.html' ?>
 		<div class="BBODY">
 			<div class="content">
-				<h1>國立臺灣師範大學學生自治會組織章程</h1>
+				<h2>國立臺灣師範大學學生自治會組織章程</h2>
 				<ul>
 					<li><b>第 一 章 &nbsp;&nbsp; 總則</b>
 						<ul>
@@ -212,19 +212,19 @@
 							<li>第三十九條 &nbsp;&nbsp; 第一屆學生會會長及學生議員之選舉，由學務處與學生會籌備小組根據本章程共同辦理，報請校長核定後實施。</li>
 							<li>第 四十 條 &nbsp;&nbsp; 本章程由學生會章程制定代表大會制定，經學生事務會議通過，報請校務會議核定實施。修正時依本章程第三十七條之規定，再經學生事務會議通過，報請校務會議核定後實施。</li>
 						</ul>
-					
+
 					</li>
 				</ul>
 
 
 
-				
-				
+
+
 			</div>
 		</div>
 		<?php include 'html/footer.html'; ?>
-	
-	
+
+
 	</center>
 	</body>
-</html> 
+</html>

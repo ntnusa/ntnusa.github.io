@@ -17,14 +17,14 @@
 						<span class="sdt_link">關於學生會</span>
 					</span>
 				</a>
-				<div class="sdt_box">
+				<div class="sdt_box" style="left: 0px; display: none;height:150px;">
 						<a href="Organization.php">組織架構</a>
 						<a href="law.php">自治規程</a>
 						<a href="Dep_intro.php">部門介紹</a>
 				</div>
 			</li>
 			<li>
-				<a href="making.php">
+				<a href="making.php" style="left: 0px; display: none;height:330px;">
 					<img src="IMG/nav_bar_pic/3.gif" alt="最新消息"/>
 					<span class="sdt_active"></span>
 					<span class="sdt_wrap">
@@ -141,11 +141,11 @@
 			<div><a href="making.php">討論區</a></div>
 		</li>
 	</ul>
-	
+
 	<script type="text/javascript">
-	
+
 	function openbar()
-	{   
+	{
 		var bar = document.getElementById("dropdown-toggle");
 		if(bar.style.top === "0em")
 		{
@@ -162,7 +162,7 @@
 			document.getElementById("dpnews").style.display="none";
 		}
 	}
-	
+
 	function op(thing)
 	{
 		var tar = document.getElementById(thing);

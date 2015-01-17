@@ -1,37 +1,37 @@
  <!DOCTYPE html>
 <html>
 	<head>
-		
+
 		<!--META TAGs-->
 		<meta name="Description" CONTENT="師大學生會內部各部門的介紹，協助同學更了解學生會內部的分工情形，歡迎有興趣幫忙的你加入學生會！"> <!-- 描述 -->
 		<meta name="KeyWords" content="師大學生會,NTNUSA,部門介紹">  <!-- 關鍵字, 協助SEO -->
 		<meta name="Author" CONTENT="學生會資訊部">  <!-- 作者 -->
 		<meta name="Generator" CONTENT="Notepad++">	 <!-- 生產的工具 -->
-		<meta http-equiv="Pragma" CONTENT="no_cache">  <!-- Cache -->		
+		<meta http-equiv="Pragma" CONTENT="no_cache">  <!-- Cache -->
 		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />  <!-- 網站文字編碼 -->
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">   <!-- RWD -->
 		<link rev="made" href="https://www.facebook.com/NTNUstudentA"> <!-- 製作團隊 -->
 		<!--META TAGs-->
-		
+
 		<title>師大學生會．NTNUSA</title>
-		
+
 		<!-- bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
-		
+
 		<link href="IMG/favicon.ico" type="image/x-icon" rel="shortcut icon">   <!-- title 前的圖片 -->
 		<link href="css/style.css" type="text/css" media="screen" rel="stylesheet"/>
 		<link href="css/nav_bar.css" type="text/css" media="screen" rel="stylesheet"/>
 		<link type="text/css" media="screen" rel="stylesheet" href="css/rwd_nav_bar.css"/>  <!-- rwd_nav_bar 樣式表 -->
-		
+
 		<!-- nav_bar 的javascript 相關程式碼  -->
 		<script src='javascript/jquery.min.js'></script>
 		<script type="text/javascript" src="javascript/nav_bar.js"></script>
 		<script type="text/javascript" src="javascript/nav_bar_function.js"></script>
-		
+
 	</head>
 	<style>
-	
+
 @media only screen and (max-width: 720px) {
 	.BBODY{
 		height:auto;
@@ -82,10 +82,10 @@
 }
 @media only screen and (min-width: 720px) {
 .BBODY{
-	height:5150px;
+	height:4800px;
 }
 .content{
-	height:5090px;
+	height:4740px;
 	padding:30px 70px 30px 70px;
 }
 .photo_galley{
@@ -142,7 +142,7 @@
 		<?php include'html/header.html' ?>
 		<div class="BBODY">
 			<div class="content">
-				<img src="IMG/people/bird.gif" class="hide" style="float:left;height:50px;"><h1>部門介紹</h1>
+				<img src="IMG/people/bird.gif" class="hide" style="float:left;height:50px;"><h2>部門介紹</h2>
 				<p>學生工作會分為九大部門：
 				<a href="#secretariat" target="_self">秘書處</a>、
 				<a href="#right" target="_self">權益部</a>、
@@ -155,7 +155,7 @@
 				與
 				<a href="#finance" target="_self">財務部</a>
 				。以下簡介各部會執掌與業務:</p>
-				<h2>會長 副會長 </h2>
+				<h3>會長 副會長 </h3>
 				<div class="photo_galley">
 					<div class="pre_3box">
 						<IMG src="IMG/people/pre.jpg">
@@ -170,7 +170,7 @@
 						<p>劉致維 物理104</p>
 					</div>
 				</div>
-				<h2 id="secretariat">秘書處</h2>
+				<h3 id="secretariat">秘書處</h3>
 				<p class="p_box">
 					秘書部是學生會對學校的聯絡管道之一，協助會長與副會長推行各
 					項業務，負責整理、記錄所有會議及公文的相關資料，管理內部檔
@@ -180,10 +180,10 @@
 				</p>
 				<div class="pre_box" style="width:200px;">
 						<IMG src="IMG/people/src.jpg">
-						<p>處長 李維 英語系105</p>				
+						<p>處長 李維 英語系105</p>
 				</div>
-				
-				<h2 id="activity">活動部</h2>
+
+				<h3 id="activity">活動部</h3>
 				<p>
 					目標與業務為凝聚會上情感，舉辦每月聚會、每學期出遊、定期在社團貼文揪團。
 					成為各社團後盾，協助各社團舉辦大型活動。協調各社活動時程、排解問題，提供所有師大人社團資訊。
@@ -200,7 +200,7 @@
 						<p>次長 柯元惠 社教系105</p>
 					</div>
 				</div>
-				<h2 id="right">權益部</h2>
+				<h3 id="right">權益部</h3>
 				<p>要求校方資訊透明化，中止長久以來行政單位與學生之間的資訊不對等。
 					把行政單位的決定透過學生會讓學生了解。確實做到與群眾的連結，站在學生的立場出發。
 					部門業務簡介簡單分成五大項目
@@ -222,7 +222,7 @@
 						<p>次長 莊士緯 工教104</p>
 					</div>
 				</div>
-				<h2 id="public">公關部</h2>
+				<h3 id="public">公關部</h3>
 				<p>
 					任務內容，根據《國立臺灣師範大學學生自治會法規》第四章.第十一條.第四點:
 					公關部：負責本會內外聯絡協調事宜。贊助爭取、資源尋覓、對外關係扮演各學生會活動的靠山！！
@@ -238,7 +238,7 @@
 						<p>次長 林庭如 英語104 </p>
 					</div>
 				</div>
-				<h2 id="academic">學術部</h2>
+				<h3 id="academic">學術部</h3>
 				<p>
 					每個學生都有各自的強項，要如何放大優點，讓同學互相學習一直是我們在提升學術水準時不斷在嘗試的課題。
 					學術部主要負責舉辦校內的個是論壇、影展、講座、音樂會等學術活動。
@@ -254,7 +254,7 @@
 						<p>次長 吳頌琳 物理106</p>
 					</div>
 				</div>
-                <h2 id="newsdp">新聞部</h2>
+                <h3 id="newsdp">新聞部</h3>
 				<p>
 					新聞部致力於大學內的資訊流通，對內主要負責編輯學生會刊，
 					舉凡特約商店資訊、校內活動宣傳、校內重點新聞、協助宣導學校重大措施等，
@@ -272,7 +272,7 @@
 						<p>次長 林宇萱 英語105</p>
 					</div>
 				</div>
-                <h2 id="publication">文宣部</h2>
+                <h3 id="publication">文宣部</h3>
 				<p>
 					文宣部是學生會重要的靈魂角色，透過文宣部的巧手，學生會舉辦的各大活動才能順利完成，
 					美麗精緻的海報，可愛的酷卡和DM，各種宣傳品皆由文宣部負責，達到校園宣傳的最大效果，
@@ -289,7 +289,7 @@
 						<p>次長 鄭云蕎 設計105</p>
 					</div>
 				</div>
-                <h2 id="finance">財務部</h2>
+                <h3 id="finance">財務部</h3>
 				<p class="p_box">
 					財務部主要管理學生會各項活動、用品、公關、美宣等經費預算，
 					以及會內所有財產。透過編列學生會預算，有效管理學生會經費，
@@ -300,9 +300,9 @@
 				</p>
 				<div class="pre_box" style="width:200px;">
 						<IMG src="IMG/people/fin.jpg">
-						<p>部長 王怡文 心輔106</p>				
+						<p>部長 王怡文 心輔106</p>
 				</div>
-				<h2 id="info">資訊部</h2>
+				<h3 id="info">資訊部</h3>
 				<p>
 					讓校園內資訊流通更為迅速、透明，讓師大的學生能在這裡自在的發表意見，
 					共同挖掘師大的問題、爭取學生權益，讓每個人的心聲被聽到。讓師大變成更好的地方。
@@ -324,4 +324,4 @@
 		<?php include 'html/footer.html'; ?>
 	</center>
 	</body>
-</html> 
+</html>
