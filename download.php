@@ -64,7 +64,7 @@
         <h3>法規彙編</h3>
         <p>
           <ul>
-            <li><a href="download/law/國立臺灣師範大學學生自治會法規彙編 .pdf.xlsx">國立台灣師範大學學生自治會法規彙編</a></li>
+            <li><a href="download/law/國立臺灣師範大學學生自治會法規彙編.pdf.xlsx">國立台灣師範大學學生自治會法規彙編</a></li>
             <li><a href="download/law/國立臺灣師範大學各項會議組織章程設置辦法彙編.pdf"> 國立台灣師範大學各項會自組織章程設置辦法彙編</a></li>
           </ul>
         </p>
@@ -79,7 +79,7 @@
         <h3>學生自治會預算書</h3>
         <p>
           <ul>
-            <li><a href="download/finance/第一預算執行期預算書0617 .xlsx">第一預算執行期預算書 </a></li>
+            <li><a href="download/finance/第一預算執行期預算書0617.xlsx">第一預算執行期預算書 </a></li>
             <li><a href="download/finance/第二預算執行期預算書0915.xlsx">第二預算執行期預算書 </a></li>
             <li><a href="download/finance/103學年第三預算執行期預算書_1219.xlsx">第三預算執行期預算書 </a></li>
             <li><a href="download/finance/議會第一預算執行期常備預算書.xlsx">議會第一預算執行期常備預算書 </a></li>
