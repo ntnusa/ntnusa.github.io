@@ -2,7 +2,7 @@
 	height:340;
 	width:720px;
 }
-	
+
 .carousel .container {
 	position: relative;
 	z-index: 9;
@@ -38,7 +38,7 @@
 	left: 0px;
 	height: 340px;
 }
-.carousel-caption h2,
+.carousel-caption h3,
 .carousel-caption .lead {
 	margin: 0;
 	line-height: 1.25;
