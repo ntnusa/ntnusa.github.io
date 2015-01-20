@@ -5,7 +5,7 @@
 						 .stop(true)
 						 .animate({
 							'width':'160px',
-							'height':'160px',
+							'height':'118px',
 							'left':'0px'
 						 },400,'easeOutBack')
 						 .andSelf()
