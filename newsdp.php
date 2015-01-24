@@ -41,10 +41,10 @@
 }
 @media only screen and (min-width: 720px) {
 .BBODY{
-	height:610px;
+	height:710px;
 }
 .content{
-	height:550px;
+	height:650px;
 	padding:30px 70px 30px 70px;
 }
 }
