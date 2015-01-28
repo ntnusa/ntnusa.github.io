@@ -1,5 +1,5 @@
 .carousel {
-	height:340;
+	height:340px;
 	width:720px;
 }
 
@@ -48,4 +48,58 @@
 }
 .carousel-caption .btn {
 	margin-top: 10px;
+	line-height:1em;
+	color: #FFF;
+	background-color: #04C;
+}
+
+@media only screen and (max-width: 720px) {
+
+	.carousel, .carousel-inner,.carousel img {
+		height:100%;
+		width:100%;
+	}
+
+	.carousel img {
+		min-width: 0px;
+	}
+
+	.carousel,.carousel .item,.carousel-inner {
+		height: 180px;
+	}
+	.carousel-inner > .active{
+		width:100%;
+	}
+
+	.carousel-caption{
+		padding:20px 35px;
+		height: 140px;
+	}
+
+	.carousel-caption h3{
+		font-size:1.24em;
+	}
+	.carousel-caption .lead{
+		font-size:1em;
+		padding-bottom: 1em;
+	}
+
+	.carousel-caption .btn {
+		margin-top: 0px;
+		padding: 10px 11px;
+		font-size: .9em;
+		line-height:1em;
+		color: #FFF;
+		background-color: #04C;
+	}
+
+	.carousel-control {
+		height: 40px;
+		font-size: 60px;
+		left:0;
+	}
+	.carousel-control.right {
+		right:0;
+	}
+
 }

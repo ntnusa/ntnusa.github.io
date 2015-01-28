@@ -1,8 +1,12 @@
 @media only screen and (max-width: 720px) {
-	.LEFT{
+	.LEFT {
+		width:100%;
+	}
+
+	.every_dep{
 		display:none;
 	}
-	
+
 	.RIGHT{
 		background-color:none;
 		width:100%;
@@ -24,7 +28,7 @@
 		margin:0 2% 0 0;
 		vertical-align:middle;
 	}
-	
+
 	.search_bar{
 		font-size:2em;
 		width:80px;
@@ -32,7 +36,7 @@
 		top:5px;
 		display:inline-block;
 	}
-	
+
 	.right_up form{
 		display:inline;
 	}
@@ -41,7 +45,7 @@
 		margin-top:1em;
 		margin-bottom:2em;
 	}
-	
+
 	div.appeal:hover a{
 		text-decoration:none;
 	}
@@ -63,7 +67,7 @@
 		background-image: url("../IMG/nav_bar_pic/li.png") ;
 		-moz-background-size: cover;
 		background-size: cover;
-		font-family: "NotoSans","·L³n¥¿¶ÂÅé";
+		font-family: "NotoSans","ï¿½Lï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 		color:white;
 		font-size:1em;
 		line-height:.8em;
@@ -83,13 +87,13 @@
 		margin-left:0;
 	}
 
-	
+
 	.dep_list li{
 		background:#ccc;
 		margin:0.5em 0;
 		border:1px solid gray;
 	}
-	
+
 	.dep_list ul li a{
 		color:#595757;
 		font-weight: bold;
@@ -102,13 +106,13 @@
 		border:1px solid gray;
 		cursor:pointer;
 	}
-	
+
 	.dep_list li:hover a{
 		background:#555;
 		color:white;
 		cursor:pointer;
 	}
-	
+
 	.time_content{
 		display:none;
 	}
@@ -122,7 +126,7 @@
 	width: 710px;
 	height:720px;
 	font-size:1em;
-	float:left;	
+	float:left;
 	padding:30px 55px 10px 45px;
 }
 
@@ -148,7 +152,7 @@
 	background-color:none;
 	width:235px;
 	height:700px;
-	float:left;	
+	float:left;
 	padding:30px 45px 50px 30px;
 }
 
@@ -201,7 +205,7 @@ img {
 	color:#595757;
 	height:60px;
 	font-size:1em;
-	font-family:"·L³n¥¿¶ÂÅé";
+	font-family:"ï¿½Lï¿½nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 	text-align:center;
 	border-color: #595757;
 	border-style: solid;
@@ -257,7 +261,7 @@ img {
 	line-height:1.5em;
 	padding-bottom:40px;
 	text-align:left;
-	
+
 }
 
 .dep_list ul li a{
@@ -279,7 +283,7 @@ img {
 }
 
 .time_content{
-	background-color: rgba(255,255,255,0.7); 
+	background-color: rgba(255,255,255,0.7);
 	float:left;
 	width:1100px;
 	height:940px;
@@ -298,9 +302,9 @@ img {
 }
 
 .calendar{
-	background-color: rgba(255,255,255,0.7);  
+	background-color: rgba(255,255,255,0.7);
 	float:left;
-	max-width:1000px;  
+	max-width:1000px;
 	height:800px;
 	padding:30px 55px 20px 55px;
 }
