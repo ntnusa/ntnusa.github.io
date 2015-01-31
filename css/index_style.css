@@ -272,6 +272,7 @@ img {
 	font-weight: normal;
 	line-height:1.9em;
 	text-decoration: none;
+	transition-duration: 0.5s;
 }
 
 .dep_list ul{
