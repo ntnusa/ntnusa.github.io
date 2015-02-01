@@ -1,0 +1,129 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading" style="display:none;">師大學生會</h1>
+
+  <div class="content">
+    <div class="left">
+      <div class="up">
+
+
+        <div class="slideshow autoPlay">
+          <ul>
+            <li>
+              <a href="http://on.fb.me/1qhfD6k">
+                <img src="image/slide/slide-01.jpg" title="12月自由影展" alt="1" />
+              </a>
+            </li>
+            <li>
+              <a href="https://fb.me/NTNUAHF">
+                <img src="image/slide/slide-02.jpg" title="師大藝磚節" alt="2" />
+              </a>
+            </li>
+            <li>
+              <a href="http://on.fb.me/1z506Hp">
+                <img src="image/slide/slide-03.jpg" title="12月叩叩叩資訊站" alt="3" />
+              </a>
+            </li>
+            <li>
+              <a href="http://on.fb.me/1xo9Riq">
+                <img src="image/slide/slide-04.jpg" title="萬用師大卡!!" alt="4" />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="down">
+        <ul class="post-list">
+          {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.department }} {% if post.department %}-{% endif %} {{ post.title }}
+              </a>
+            </h3>
+
+            <hr />
+          </li>
+          {% endfor %}
+        </ul>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
+    </div>
+    <div class="right">
+
+      <!-- 聯絡我們 & 搜尋  -->
+      <div class="up">
+          <!-- Facebook 專頁 -->
+          <a href="https://www.facebook.com/NTNUstudentA"><img src="image/facebook.png" alt="NTNUSA facebook 粉絲專頁"></a>
+
+          <!-- e-mail -->
+          <a href="mailto:NTNUStudentA@gmail.com"><img src="image/email.png" alt="NTNUSA email"></a>
+
+          <!-- search form -->
+          <form>
+            <div>
+              <input class="search_bar" id="search" placeholder="search" type="text">
+              <input id="gosearch" style="display:none;" type="button">
+            </div>
+          </form>
+
+          <script>/*
+          $(document).ready(function () {
+            $("#search").keypress(function (event) {
+              if (event.keyCode == 13) {
+                $("#gosearch").trigger("click");
+              }
+            });
+            $("#gosearch").click(function () {
+              <!--停止所有的 form submit 事件-->
+              $("form").submit(function () {
+                return false;
+              });
+              location.href = 'https://www.google.com.tw/#q=site:sa.sa.ntnu.edu.tw +' + encodeURI($("#search").val());
+            });
+          });*/
+          </script>
+
+      </div>
+
+      <!--申訴表單-->
+      <div class="center">
+        <a href="http://goo.gl/5TQrPu"><div>申訴表單</div></a>
+      </div>
+
+      <!-- 各部門連結 -->
+      <div class="down">
+        <div>各部門 Departments</div>
+          <ul>
+            <li><a href="president">會長 / 副會長</a></li>
+            <li><a href="secretariat">秘書處</a></li>
+            <li><a href="public">公關部</a></li>
+            <li><a href="activity">活動部</a></li>
+            <li><a href="right">權益部</a></li>
+            <li><a href="newsdp">新聞部</a></li>
+            <li><a href="academic">學術部</a></li>
+            <li><a href="finance">財務部</a></li>
+            <li><a href="publication">文宣部</a></li>
+            <li><a href="info">資訊部</a></li>
+          </ul>
+      </div>
+
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="wrapper">
+
+  <div class="calendar">
+    <iframe src="https://www.google.com/calendar/embed?src=l884dpdsk5afqpdchqlf0i1eok%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 1" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
+  </div>
