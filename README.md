@@ -1,5 +1,5 @@
 <h1>NTNUSA．師大學生會網站</h1>
-<img src="IMG/head.png">
+<img src="image/head.png">
 
 讓校園內資訊流通更為迅速、透明，師大學生能在這裡自在的發表意見，<br />
 
