@@ -8,8 +8,7 @@ permalink: /newsdp/
 
 <hr>
 {% for post in site.posts %}
-{% if post.department == "新聞部"  %}
-{% if post.department %}
+{% if post.department == "新聞部" and post.department %}
 <li>
   <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -21,6 +20,5 @@ permalink: /newsdp/
 
   <hr />
 </li>
-{% endif %}
 {% endif %}
 {% endfor %}

@@ -8,19 +8,17 @@ permalink: /academic/
 
 <hr>
 {% for post in site.posts %}
-{% if post.department == "學術部"  %}
-{% if post.department %}
-<li>
-  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  {% if post.department == "學術部" and post.department %}
+  <li>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <h3>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-      {{ post.department }} {% if post.department %}-{% endif %} {{ post.title }}
-    </a>
-  </h3>
+    <h3>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.department }} {% if post.department %}-{% endif %} {{ post.title }}
+      </a>
+    </h3>
 
-  <hr />
-</li>
-{% endif %}
-{% endif %}
+    <hr />
+  </li>
+  {% endif %}
 {% endfor %}
