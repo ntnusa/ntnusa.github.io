@@ -1,0 +1,24 @@
+---
+layout: page
+title: 活動部
+photo1: /image/people/info_pre.jpg;
+photo2: /image/people/info_vpre.jpg;
+permalink: /deps/activity/
+---
+
+<hr>
+{% for post in site.posts %}
+  {% if post.department == "活動部" and post.department %}
+  <li>
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+    <h3>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.department }} {% if post.department %}-{% endif %} {{ post.title }}
+      </a>
+    </h3>
+
+    <hr />
+  </li>
+  {% endif %}
+{% endfor %}
