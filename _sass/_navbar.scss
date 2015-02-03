@@ -23,12 +23,15 @@ ul.sdt_menu{
     height:45px;
     position:relative;
     cursor:pointer;
+    &:hover a{
+      color : gray;
+    }
     > a{
       display: block;
       min-height: 100%;
       height: auto;
       width: span(7 wide of 7);
-      z-index:12;
+      z-index:32;
       background:url(http://sa.sa.ntnu.edu.tw/image/nav_bar_pic/li.png) no-repeat bottom right;
       opacity: 0.85;
       img{
@@ -43,9 +46,8 @@ ul.sdt_menu{
       &.sdt_wrap{
         width: span(1 wide of 1);
         position: absolute;
-        top:-2px;
         left:0px;
-        z-index:15;
+        z-index:35;
       }
       &.sdt_active{
         width: span(1 wide of 1);
@@ -54,7 +56,7 @@ ul.sdt_menu{
         top: 45px;
         left: 0px;
         background: rgba(255,255,255,0.9);
-        z-index:14;
+        z-index:34;
         box-shadow:0px 0px 1px #000 inset;
       }
       span.sdt_link{
@@ -74,7 +76,7 @@ ul.sdt_menu{
       left:0px;
       overflow:hidden;
       background: rgba(255,255,255,0.9);
-      z-index:20;
+      z-index:40;
       box-shadow:0px 0px 5px #777;
       a{
         margin: 0 auto;
