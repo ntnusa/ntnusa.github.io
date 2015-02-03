@@ -1,3 +1,4 @@
+if(document.body.clientWidth > 700){
  $(function() {
   $('#sdt_menu > li').bind('mouseenter',function(){
     var $elem = $(this);
@@ -40,3 +41,4 @@
 			 .animate({'top':'-2px'},500); //the text go back
 	});
 });
+}

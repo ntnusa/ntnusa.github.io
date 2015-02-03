@@ -94,9 +94,26 @@ ul.sdt_menu{
   }
 }
 
-
-
-
-
-@media screen and (max-width:705px){.small_hide{display:none;}}
-@media screen and (min-width:705px){.big_hide{display:none;}}
+@include media-query($on-palm) {
+  ul.sdt_menu{
+    text-align: center;
+    height: 320px;
+    clear: both;
+    display: block;
+    width: span(1 wide of 1);
+    li{
+      width: span(1 wide of 1);
+      display: block;
+      > a{
+        width: span(2 wide of 3);
+        color: gray;
+        background-image: none;
+        border-bottom: 1px solid $grey-color-light;
+        margin: 0 auto;
+      }
+      span.sdt_active, div.sdt_box{
+        display: none;
+      }
+    }
+  }
+}

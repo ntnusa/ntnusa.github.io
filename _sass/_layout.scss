@@ -33,44 +33,30 @@ body{
 }
 
 .site-nav {
-    width: span(1 wide of 1);
     line-height: 45px;
+    clear: both;
+    display: block;
 
     .menu-icon {
         display: none;
     }
 
-    .page-link {
-        padding: 0 2em;
-        display: inline-block;
-        background: url("../image/nav_bar_pic/li.png") no-repeat scroll right bottom transparent;
-        opacity: 0.9;
-        color: #fff;
-        height: 100%;
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 0px;
-        }
-    }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
 
         .menu-icon {
-            display: block;
-            float: right;
+            display: inline-block;
             width: 36px;
-            height: 26px;
+            height: 36px;
             line-height: 0;
             padding-top: 10px;
             text-align: center;
-
+            float: right;
+            clear: both;
             > svg {
                 width: 18px;
                 height: 15px;
@@ -85,6 +71,7 @@ body{
           text-align: center;
             width: 100%;
             clear: both;
+            //display: block;
             display: none;
         }
 
