@@ -1,13 +1,32 @@
 .home{
+  width: container;
   .left {
+    width: span(3 of 4);
+    height: 620px;
     display: inline-block;
     vertical-align: top;
-    height: 660px;
-    width: 71%;
     .up{
+      height:250px;
+      padding: 2.5% 5%;
+      overflow: auto;
+      border: 1px solid $grey-color;
+      overflow: auto;
+      background-color: rgba(255, 255, 255, 0.5);
+      background:
+      linear-gradient(white 30%, hsla(0,0%,100%,0)),
+      linear-gradient(hsla(0,0%,100%,0), white 70%) bottom,
+      radial-gradient(at top, rgba(0,0,0,.2), transparent 70%),
+      radial-gradient(at bottom, rgba(0,0,0,.2), transparent 70%) bottom;
+      background-color: #FFF;
+      background-repeat: no-repeat;
+      background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+      background-attachment: local, local, scroll, scroll;
+    }
+    .down{
+      margin: 4% 0;
       height: 310px;
       overflow: hidden;
-      background-color: rgba(255, 255, 255, 0.5);
+      background: rgba(255, 255, 255, 0);
       ul, li {
         margin: 0;
         padding: 0;
@@ -66,62 +85,57 @@
         }
       }
     }
-    .down{
-      height:260px;
-      padding: 2.5% 5%;
-      margin-top: 5%;
-      overflow: auto;
-      border: 1px solid $grey-color;
-      overflow: auto;
-      background-color: rgba(255, 255, 255, 0.5);
-      background:
-        linear-gradient(white 30%, hsla(0,0%,100%,0)),
-        linear-gradient(hsla(0,0%,100%,0), white 70%) bottom,
-        radial-gradient(at top, rgba(0,0,0,.2), transparent 70%),
-        radial-gradient(at bottom, rgba(0,0,0,.2), transparent 70%) bottom;
-      background-color: #FFF;
-      background-repeat: no-repeat;
-      background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
-      background-attachment: local, local, scroll, scroll;
-    }
+
   }
 
   .right {
-    margin-left: 5%;
+    width: span(1 of 3);
+    padding-left: gutters(4);
+    padding-right: 0;
     display: inline-block;
     vertical-align: top;
-    height: 660px;
-    width: 23%;
+    height: 620px;
     .up{
-      > *{
-        margin: 0 2.5px;
-      }
+      margin: 0 auto;
+      margin-bottom: 1em;
+      width: span(1 wide of 1);
       a{
-        width:15%;
-      }
-      form
-      {
         display: inline-block;
-        width:55%;
+        width: span(1 of 4);
+      }
+      form{
+        margin: 0 gutters(4);
+        display: inline-block;
+        width: span(2 of 4 last);
         input{
-          width:100%;
-          line-height: 25px;
+          width: span(2 wider of 2);
+          line-height: 1.75em;
         }
       }
     }
     .center{
+      width: span(1 wide of 1);
       text-align: center;
-      margin: $spacing-unit 0;
+      margin: $spacing-unit 0 ;
       div{
+        width: span(1 wide of 1);
         color: #595757;
         border: 1px solid #959595;
         line-height: 3.3em;
         background-image: url("../image/appeal.png");
         background-position:left center;
         background-size: cover;
+        transition-duration: .3s;
+        &:hover{
+          color: #777;
+        }
       }
     }
     .down{
+      width: span(1 wide of 1);
+      @media screen and (max-width:840px) {
+        padding-right: gutters(2);
+        }
       div{
         font-size: 1em;
         line-height: 3em;
@@ -149,5 +163,72 @@
         }
       }
     }
+  }
+}
+
+.calendar{
+  width: span(1 wide of 1);
+  height: 800px;
+}
+
+@media screen and (max-width:840px) {
+  .home{
+    .left{
+      width: span(1 wide of 1);
+      height:510px;
+      .down{
+        height:220px;
+      }
+    }
+    .right{
+      width: span(1 wide of 1);
+      .up{
+        width: span(3 of 7);
+        display: inline-block;
+        margin-bottom: 2em;
+      }
+      .center{
+        width: span(4 of 7 last);
+        display: inline-block;
+      }
+    }
+  }
+  .calendar{
+    height: 400px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .home{
+    .left{
+      width: span(1 wide of 1);
+      height:160px;
+      margin-bottom: 1em;
+      .up{
+        height:160px;
+      }
+      .down{
+        display: none;
+      }
+    }
+    .right{
+      width: span(1 wide of 1);
+      .up{
+        width: span(1 wide of 1);
+        display: inline-block;
+        margin-bottom: 0;
+      }
+      .center{
+        width: span(1 wide of 1);
+        display: inline-block;
+      }
+      .down{
+        padding-right:0;
+      }
+    }
+  }
+  .calendar{
+      height: 300px;
   }
 }

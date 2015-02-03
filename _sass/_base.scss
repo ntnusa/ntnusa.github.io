@@ -4,14 +4,15 @@
 */
 
 $susy: (
-columns: 4,
+columns: 8,
 math: fluid,
 output: float,
-gutter-position: inside,
+gutter-position: split,
 global-box-sizing: border-box,
 debug: (
-image: show,
-color: rgba( green, 0.5))
+  //  image: show,
+    color: rgba( green, 0.5)
+  )
 );
 @include border-box-sizing;
 
@@ -56,7 +57,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit * 2;
 }
 
 
@@ -88,7 +89,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    margin-left: $spacing-unit * 2;
     list-style-type: none;
 }
 
@@ -135,7 +136,7 @@ a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+    padding-left: $spacing-unit;
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
@@ -179,18 +180,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  //  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  //  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin: ($spacing-unit/2) $spacing-unit;
+    margin: $spacing-unit $spacing-unit * 2;
     background: rgba(255, 255, 255, 0.8);
     border-radius: inherit;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+        padding-right: $spacing-unit;
+        padding-left: $spacing-unit;
     }
 }
 
