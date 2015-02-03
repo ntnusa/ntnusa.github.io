@@ -1,17 +1,3 @@
-@import "susy/language/susy";
-
-$susy: (
-columns: 4,
-math: fluid,
-output: float,
-gutter-position: inside,
-global-box-sizing: border-box,
-debug: (
-image: show,
-color: rgba( green, 0.5))
-);
-@include border-box-sizing;
-
 /**
  * Site header
  */
