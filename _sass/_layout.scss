@@ -3,13 +3,14 @@
  */
 
 body{
+  @include container;
   > *{
     margin:0 auto;
   }
 }
 
 .site-header {
-    width: 1165.9425px;
+    width: span(1 of 1);
     padding: $spacing-unit/2 0;
     border-radius: 10px 10px 0px 0px;
     text-align:center;
@@ -106,7 +107,7 @@ body{
  * Site footer
  */
 .site-footer {
-  width: 1165.9425px;
+  width: span(1 of 1);
   padding: 10px 0;
   margin-bottom: 40px;
   background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.5);
@@ -179,7 +180,7 @@ body{
  * Page content
  */
 .page-content {
-    width: 1165.9425px;
+    width: span(1 of 1);
     padding: $spacing-unit/2 0;
     margin: 10px auto;
     background: rgba(255, 255, 255, 0.5) repeat scroll 0% 0%;
