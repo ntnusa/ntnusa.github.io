@@ -1,8 +1,13 @@
 .contact{
+  width: span(8 wide of 8);
+  text-align: center;
+  *{text-align: left;}
   .left{
+    @include media-query($on-laptop) {width: span(1 wide of 1);}
+    width: span(4 of 8);
+    padding: gutters(4);
+    margin: 0 gutters(12);
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 2%;
-    width:45%;
     display: inline-block;
     vertical-align: top;
     hr{
@@ -22,10 +27,10 @@
     }
   }
   .right{
-    margin-left: 1.5%;
     @extend .left;
     .map{
       width:100%;
+      @include media-query($on-palm) {height:320px;}
     }
   }
 }

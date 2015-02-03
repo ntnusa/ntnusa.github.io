@@ -26,6 +26,9 @@ body{
     }
     // Positioning context for the mobile navigation icon
     position: relative;
+    @include media-query($on-laptop) {
+      width: span(1 wide of 1);
+    }
 }
 
 .site-title {
@@ -103,6 +106,10 @@ body{
     text-align: center;
     color: #777;
   }
+
+  @include media-query($on-laptop) {
+    width: span(1 wide of 1);
+  }
 }
 
 .contact-list,
@@ -172,6 +179,10 @@ body{
     background: rgba(255, 255, 255, 0.5) repeat scroll 0% 0%;
     .wrapper {
       padding: $spacing-unit*2;
+    }
+
+    @include media-query($on-laptop) {
+      width: span(1 wide of 1);
     }
 }
 
@@ -249,5 +260,10 @@ body{
 
     ul,ol{
       padding-bottom: 1.5em;
+    }
+
+
+    @include media-query($on-laptop) {
+      width: span(1 wide of 1);
     }
 }

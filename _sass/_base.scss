@@ -46,6 +46,11 @@ body {
     background-attachment: fixed;
     -webkit-text-size-adjust: 100%;
     margin: 40px 94px;
+
+    @include media-query($on-laptop) {
+      margin: 0;
+      padding: $spacing-unit;
+    }
 }
 
 
