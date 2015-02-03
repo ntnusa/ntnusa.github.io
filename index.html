@@ -9,6 +9,25 @@ layout: default
   <div class="content">
     <div class="left">
       <div class="up">
+        <ul class="post-list">
+          {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h3>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.department }} {% if post.department %}-{% endif %} {{ post.title }}
+              </a>
+            </h3>
+
+            <hr />
+          </li>
+          {% endfor %}
+        </ul>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
+
+      <div class="down">
 
 
         <div class="slideshow autoPlay">
@@ -38,24 +57,6 @@ layout: default
 
       </div>
 
-      <div class="down">
-        <ul class="post-list">
-          {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-            <h3>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.department }} {% if post.department %}-{% endif %} {{ post.title }}
-              </a>
-            </h3>
-
-            <hr />
-          </li>
-          {% endfor %}
-        </ul>
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-      </div>
     </div>
     <div class="right">
 
@@ -69,28 +70,8 @@ layout: default
 
           <!-- search form -->
           <form>
-            <div>
               <input class="search_bar" id="search" placeholder="search" type="text">
-              <input id="gosearch" style="display:none;" type="button">
-            </div>
           </form>
-
-          <script>/*
-          $(document).ready(function () {
-            $("#search").keypress(function (event) {
-              if (event.keyCode == 13) {
-                $("#gosearch").trigger("click");
-              }
-            });
-            $("#gosearch").click(function () {
-              <!--停止所有的 form submit 事件-->
-              $("form").submit(function () {
-                return false;
-              });
-              location.href = 'https://www.google.com.tw/#q=site:sa.sa.ntnu.edu.tw +' + encodeURI($("#search").val());
-            });
-          });*/
-          </script>
 
       </div>
 
@@ -101,7 +82,7 @@ layout: default
 
       <!-- 各部門連結 -->
       <div class="down">
-        <div>各部門 Departments</div>
+        <div>各部門</div>
           <ul>
             <li><a href="/deps/president">會長 / 副會長</a></li>
             <li><a href="/deps/secretariat">秘書處</a></li>
@@ -123,7 +104,4 @@ layout: default
 </div>
 </div>
 <div class="wrapper">
-
-  <div class="calendar">
-    <iframe src="https://www.google.com/calendar/embed?src=l884dpdsk5afqpdchqlf0i1eok%40group.calendar.google.com&ctz=Asia/Taipei" style="border: 1" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
-  </div>
+    <iframe class="calendar" src="https://www.google.com/calendar/embed?src=l884dpdsk5afqpdchqlf0i1eok%40group.calendar.google.com&ctz=Asia/Taipei" frameborder="0" scrolling="no"></iframe>

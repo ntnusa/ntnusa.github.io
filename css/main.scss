@@ -11,7 +11,7 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     20px;
+$spacing-unit:     10px;
 
 $text-color:       #595757;
 $background-color: #fdfdfd;
@@ -46,6 +46,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "susy/language/susy",
         "base",
         "layout",
         "syntax-highlighting",
