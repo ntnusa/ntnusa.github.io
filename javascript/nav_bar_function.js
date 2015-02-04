@@ -1,6 +1,7 @@
-if(document.body.clientWidth > 700){
+
  $(function() {
   $('#sdt_menu > li').bind('mouseenter',function(){
+    if(window.matchMedia("(min-width: 700px)").matches) {
     var $elem = $(this);
     $elem.find('img').stop(true).animate({
                 'width': $elem.width(),
@@ -21,7 +22,9 @@ if(document.body.clientWidth > 700){
               $sub_menu.show().animate({'left':left},200);
             }
           });
+      }
 	}).bind('mouseleave',function(){
+    if(window.matchMedia("(min-width: 700px)").matches) {
 		var $elem = $(this);
 		var $sub_menu = $elem.find('.sdt_box');
 		if($sub_menu.length)
@@ -39,6 +42,6 @@ if(document.body.clientWidth > 700){
 			 .find('.sdt_wrap')
 			 .stop(true)
 			 .animate({'top':'-2px'},500); //the text go back
+     }
 	});
 });
-}

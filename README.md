@@ -41,7 +41,7 @@
 
 _抱歉要請各位看簡體字，他的內容比較完整，可以參考。但內容有些因為版本更迭的關係而有些不同，請自行隨機應變。_
 
-> #### windows 注意事項
+> #### 注意事項
 > + 執行 jekyll serve 前要先下 `chcp 65001` 指令避免編碼錯誤
 > + 不要直接新增文字文件，因為 windows 的預設編碼不是 `不以 bom 為開頭的 UTF-8 文件`
 
@@ -60,7 +60,7 @@ sudo gem install github-pages --no-ri --no-rdoc
 
 + `rake -T` - 列出簡易命令說明。
 + `rake --help` - 列出完整使用說明。
-+ `rake post title="post_name"` - 新增一篇文章 **常用** 。
++ `rake post title="post_name"` - 新增一篇文章 (**常用**) 。
 + `rake page name="page_name"` - 新增一個頁面。
 + `rake preview` - 等同於 jekyll serve, 但結束時會有錯誤訊息，暫無法排除。
 
