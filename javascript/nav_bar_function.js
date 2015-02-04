@@ -1,4 +1,4 @@
-if(window.matchMedia("(max-width: 400px)").matches) {
+if(window.matchMedia("(min-width: 700px)").matches) {
  $(function() {
   $('#sdt_menu > li').bind('mouseenter',function(){
     var $elem = $(this);
