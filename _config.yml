@@ -2,7 +2,7 @@
 title: 國立臺灣師範大學學生自治會
 email: NTNUStudentA@gmail.com
 image: /image/head.png
-description: 臺灣師範大學學生自治會的官方網頁，學生會主軸為校務參與、權益爭取、企劃執行和校外交流。
+description: "臺灣師範大學學生自治會的官方網頁，學生會主軸為校務參與、權益爭取、企劃執行和校外交流。"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://sa.sa.ntnu.edu.tw # the base hostname & protocol for your site
 #twitter_username: jekyllrb
