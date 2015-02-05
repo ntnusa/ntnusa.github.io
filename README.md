@@ -34,7 +34,7 @@
 + 這樣你就不用編輯他；如果沒有，請手動新增（不要忽略那些減號），然後儲存
 + 接著回到命令提示字元，輸入 `ruby dk.rb install`
 + 輸入 `gem -v`，確認 gem 沒問題了
-+ 輸入 `gem install github-pages jekyll --source http://rubygems.org`，安裝 jekyll，這邊可能要等他跑一下
++ 輸入 `gem install github-pages jekyll --no-ri --no-rdoc --source http://rubygems.org`，安裝需要的檔案
 + 跑玩之後關閉 cmd，然後重新開啟，輸入 `cd desktop`，移動到桌面
   + 你有裝 git：輸入 `git clone https://github.com/NTNUSA/NTNUSA-site/`
   + 你沒裝 git：先把 cmd 縮到最小，然後載[這個](https://github.com/NTNUSA/NTNUSA-site/archive/master.zip)，把裡面的資料夾拖到桌面，重新命名為`NTNUSA-site`
