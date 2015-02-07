@@ -8,7 +8,7 @@ CONFIG = {
   'version' => "0.3.0",
   'layouts' => File.join(SOURCE, "_layouts"),
   'posts' => File.join(SOURCE, "_posts"),
-  'post_ext' => "html"
+  'post_ext' => "md"
 }
 
 # 使用方式: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
