@@ -19,8 +19,10 @@
 ### Windows
 
 #### 架設步驟
-+ 安裝 [RubyInstaller](http://tldrify.com/5hf)，記得勾中間會出現的三個選項
-+ 解壓縮 [Devkit](http://tldrify.com/5hf)，要存在 **C:/DevKit/**
++ 安裝 [RubyInstaller](http://rubyinstaller.org/downloads/)，記得勾中間會出現的三個選項
+  + 不要載到 other useful downloads 去了
++ 解壓縮 [Devkit](http://rubyinstaller.org/downloads/)，要存在 **C:/DevKit/**
+  + 是 MD5 check sum 上面的那三個連結，標有 **Development Kit** 的那個！
 + 安裝＆解壓後開啟命令提示字元（可以按 win + r，然後輸入 cmd）
 + 輸入 `ruby -v`，確認 ruby 安裝無誤了
 + 輸入 `cd C:/DevKit`，移動到解壓的資料夾
@@ -38,12 +40,12 @@
 + 跑玩之後關閉 cmd，然後重新開啟，輸入 `cd desktop`，移動到桌面
   + 你有裝 git：輸入 `git clone https://github.com/NTNUSA/NTNUSA-site/`
   + 你沒裝 git：先把 cmd 縮到最小，然後載[這個](https://github.com/NTNUSA/NTNUSA-site/archive/master.zip)，把裡面的資料夾拖到桌面，重新命名為`NTNUSA-site`
-+ 回到 cmd，輸入 `cd NTNUSA -site`
++ 回到 cmd，輸入 `cd NTNUSA-site`
 + 輸入 `chcp 65001`，然後再輸入 `jekyll serve`
 + 接著你就可以到 http://127.0.0.1:4000 看網站的架設狀況了
 
 #### 工作步驟
-+ 輸入 `cd NTNUSA -site`
++ 輸入 `cd NTNUSA-site`
 + 輸入 `chcp 65001`，然後再輸入 `jekyll serve` ，然後就可以開始改檔案了
 + 你改了什麼，jekyll 都會幫你更新，只要在 http://127.0.0.1:4000 按 F5 就好，不用重新跑指令
 
