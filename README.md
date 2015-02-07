@@ -37,6 +37,7 @@
 + 接著回到命令提示字元，輸入 `ruby dk.rb install`
 + 輸入 `gem -v`，確認 gem 沒問題了
 + 輸入 `gem install github-pages jekyll --no-ri --no-rdoc --source http://rubygems.org`，安裝需要的檔案
+  + 這一個步驟在跑之前會等比較久而且沒有任何提示，請耐心後，如果過十分鐘還是沒反應，可能才有問題
 + 跑玩之後關閉 cmd，然後重新開啟，輸入 `cd desktop`，移動到桌面
   + 你有裝 git：輸入 `git clone https://github.com/NTNUSA/NTNUSA-site/`
   + 你沒裝 git：先把 cmd 縮到最小，然後載[這個](https://github.com/NTNUSA/NTNUSA-site/archive/master.zip)，把裡面的資料夾拖到桌面，重新命名為`NTNUSA-site`
