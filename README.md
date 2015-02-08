@@ -19,10 +19,8 @@
 ### Windows
 
 #### 架設步驟
-+ 安裝 [RubyInstaller](http://rubyinstaller.org/downloads/)，記得勾中間會出現的三個選項
-  + 不要載到 other useful downloads 去了
-+ 解壓縮 [Devkit](http://rubyinstaller.org/downloads/)，要存在 **C:/DevKit/**
-  + 是 MD5 check sum 上面的那三個連結，標有 **Development Kit** 的那個！
++ 安裝  [Ruby 2.1.5](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5.exe) 或是 [Ruby 2.1.5(x64)](http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.1.5-x64.exe)，記得勾中間會出現的三個選項
++ 解壓縮 [Devkit](http://cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe) 或 [Devkit(x64)](http://cdn.rubyinstaller.org/archives/devkits/DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe)，要存在 **C:/DevKit/**
 + 安裝＆解壓後開啟命令提示字元（可以按 win + r，然後輸入 cmd）
 + 輸入 `ruby -v`，確認 ruby 安裝無誤了
 + 輸入 `cd C:/DevKit`，移動到解壓的資料夾
