@@ -56,7 +56,16 @@
 <!--### Mac OS X-->
 
 ### Linux
-> 以 fedora 21 為例
+
+> Ubuntu, Debian, Mint
+
+```
+sudo apt-get install ruby ruby-dev rubygems-integration
+sudo gem install github-pages --no-ri --no-rdoc
+```
+
+> fedora, Red Hat, CentOS
+> P.S: 後兩者未測試
 
 ```
 sudo dnf install ruby ruby-devel rubygems
