@@ -56,20 +56,20 @@
 <!--### Mac OS X-->
 
 ### Linux
-
+<!--
 > Ubuntu, Debian, Mint
 
 ```
 sudo apt-get install ruby ruby-dev rubygems-integration
 sudo gem install github-pages --no-ri --no-rdoc
 ```
-
+-->
 > fedora, Red Hat, CentOS
 > P.S: 後兩者未測試
 
 ```
 sudo dnf install ruby ruby-devel rubygems
-sudo gem install github-pages --no-ri --no-rdoc
+sudo gem install github-pages execjs --no-ri --no-rdoc
 ```
 
 ## 一些指令
