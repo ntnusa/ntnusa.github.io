@@ -1,5 +1,5 @@
 ul.sdt_menu{
-  width: span(7 wide of 7);
+  width: span(5 wide of 5);
   margin: 0;
   padding:0;
   list-style: none;
@@ -19,7 +19,7 @@ ul.sdt_menu{
   }
   li{
     float:left;
-    width: span(1 wide of 7);
+    width: span(1 wide of 5);
     height:45px;
     position:relative;
     cursor:pointer;
@@ -30,7 +30,7 @@ ul.sdt_menu{
       display: block;
       min-height: 100%;
       height: auto;
-      width: span(7 wide of 7);
+      width: span(5 wide of 5);
       z-index:32;
       background:url(http://sa.sa.ntnu.edu.tw/image/nav_bar_pic/li.png) no-repeat bottom right;
       opacity: 0.85;

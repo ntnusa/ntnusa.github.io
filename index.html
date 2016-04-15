@@ -8,27 +8,8 @@ layout: default
 
   <div class="content">
     <div class="left">
-      <div class="up">
-        <ul class="post-list">
-          {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-            <h3>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.department }} {% if post.department %}-{% endif %} {{ post.title }}
-              </a>
-            </h3>
-
-            <hr />
-          </li>
-          {% endfor %}
-        </ul>
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-      </div>
 
       <div class="down">
-
 
         <div class="slideshow autoPlay">
           <ul>
@@ -63,40 +44,17 @@ layout: default
       <!-- 聯絡我們 & 搜尋  -->
       <div class="up">
           <!-- Facebook 專頁 -->
-          <a href="https://www.facebook.com/NTNUstudentA"><img src="image/facebook.png" alt="NTNUSA facebook 粉絲專頁"></a>
+          <a href="https://www.facebook.com/ntnustua"><img src="image/facebook.png" alt="NTNUSA facebook 粉絲專頁"></a>
 
           <!-- e-mail -->
           <a href="mailto:NTNUStudentA@gmail.com"><img src="image/email.png" alt="NTNUSA email"></a>
-
-          <!-- search form -->
-          <form>
-              <input class="search_bar" id="search" placeholder="search" type="text">
-          </form>
 
       </div>
 
       <!--申訴表單-->
       <div class="center">
-        <a href="http://goo.gl/5TQrPu"><div>申訴表單</div></a>
+        <a href="https://www.facebook.com/ntnustua/app/345327832209548/"><div>申訴表單</div></a>
       </div>
-
-      <!-- 各部門連結 -->
-      <div class="down">
-        <div>各部門</div>
-          <ul>
-            <li><a href="/deps/president">會長 / 副會長</a></li>
-            <li><a href="/deps/secretariat">秘書處</a></li>
-            <li><a href="/deps/public">公關部</a></li>
-            <li><a href="/deps/activity">活動部</a></li>
-            <li><a href="/deps/right">權益部</a></li>
-            <li><a href="/deps/newsdp">新聞部</a></li>
-            <li><a href="/deps/academic">學術部</a></li>
-            <li><a href="/deps/finance">財務部</a></li>
-            <li><a href="/deps/publication">文宣部</a></li>
-            <li><a href="/deps/info">資訊部</a></li>
-          </ul>
-      </div>
-
 
     </div>
   </div>
@@ -104,4 +62,5 @@ layout: default
 </div>
 </div>
 <div class="wrapper">
-    <iframe class="calendar" src="https://www.google.com/calendar/embed?src=l884dpdsk5afqpdchqlf0i1eok%40group.calendar.google.com&ctz=Asia/Taipei" frameborder="0" scrolling="no"></iframe>
+	<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=p5644gt395hccn7fae2jgn4los%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=Asia%2FTaipei" style="border-width:0" width="910" height="600" frameborder="0" scrolling="no"></iframe>
+
