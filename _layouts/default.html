@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>師大學生會</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
 
-  {% include head.html %}
+	<div id="page">
+		<header>
+			<h1><a href="/">師大學生會</a></h1>
+			{% include nav.html %}
+		</header>
+		<main>
+			{{ content }}
+		</main>
+		<footer>
+			&copy; 2016 by Nation Taiwan Norman University Student Association
+		</footer>
+	</div>
 
-  <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+</body>
 </html>
-
-<script src="/javascript/jquery.min.js"></script>
-<script type="text/javascript" src="/javascript/nav_bar.js"></script>
-<script type='text/javascript' src='/javascript/nav_bar_function.js'></script>
-<script type="text/javascript" src="/javascript/slideshow.js"></script>

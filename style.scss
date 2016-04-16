@@ -1,0 +1,172 @@
+---
+---
+
+$blue: #6462FD;
+$yellow: #F8D02D;
+
+
+
+html, body {
+	background: $blue;
+	margin: 0;
+	padding: 0;
+}
+
+#page {
+	display: flex;
+	flex-direction: column;
+	margin: 2rem auto 3rem;
+	max-width: 1024px;
+	min-height: 89vh;
+}
+
+header {
+	background: $yellow;
+	padding: .25rem;
+
+	h1 {
+		display: inline-block;
+		font-size: 1.5rem;
+		margin: 0;
+
+		a {
+			color: $blue;
+			display: block;
+			text-decoration: none;
+			padding: .5rem 4rem;
+		}
+	}
+	nav {
+		display: inline-block;
+		vertical-align: top;
+
+		&::before {
+			color: $blue;
+			content: "|";
+			width: 0;
+			display: inline-block;
+			font-size: 1rem;
+		}
+
+		h2 {
+			display: none;
+		}
+		#nav-trigger {
+			display: none;
+		}
+		ul.list {
+			display: inline-block;
+			margin: .5rem 0;
+
+			> li {
+				display: inline-block;
+
+				a {
+					color: $blue;
+					display: block;
+					font-size: 1rem;
+					letter-spacing: 2px;
+					text-decoration: none;
+					transition-duration: .2s;
+					padding: .5rem 1.5rem;
+
+					&:hover {
+						background: $blue;
+						color: $yellow;
+						font-weight: bold;
+					}
+				}
+
+				.sub_list {
+					display: none;
+				}
+
+				.trigger_sublist:hover + .sub_list, .sub_list:hover {
+					background: $yellow;
+					display: block;
+					list-style-type: none;
+					margin-left: 1.2rem;
+					padding: 0;
+					position: absolute;
+				}
+			}
+		}
+	}
+}
+
+main {
+	background: #fff;
+	flex: 1;
+	margin: 1rem auto;
+	padding: 1rem 4%;
+	width: 92%;
+
+	h2 {
+		border-bottom: 1px solid $blue;
+		color: $blue;
+		width: 75%;
+		padding-bottom: .5rem;
+	}
+
+	h3 {
+		background: $blue;
+		color: #fff;
+		display: inline-block;
+		font-weight: normal;
+		padding: 0 .25rem;
+	}
+	p {
+		color: #343434;
+	}
+
+	a {
+		border-bottom: 1px dashed #ccc;
+		color: $blue;
+		text-decoration: none;
+	}
+
+	.member {
+		li {
+			text-align: center;
+			display: inline-block;
+			margin: 1rem 2rem;
+
+			img {
+				display: block;
+			}
+		}
+	}
+
+	#fb_posts {
+		list-style-type: none;
+		margin: 0;
+		padding: 1rem 0 0;
+
+		li.post {
+			img {
+				vertical-align: bottom;
+				height: 27px;
+				width: 20px;
+				margin-right: .5rem;
+			}
+			a {
+				text-decoration: none;
+
+				p {
+					margin-bottom: 3rem;
+				}
+			}
+		}
+	}
+
+
+
+}
+
+footer {
+	background: $yellow;
+	color: $blue;
+	padding: .5rem;
+	text-align: center;
+}
+

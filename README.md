@@ -2,4 +2,4 @@
 ![NTNUSA](image/head.png "NTNUSA")
 
 ## 開發
-請見 deploy.md
+請見 [deploy.md](deploy.md)

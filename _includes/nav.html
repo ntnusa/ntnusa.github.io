@@ -1,52 +1,25 @@
-  <ul id="sdt_menu" class="sdt_menu">
-    <li>
-      <a href="/">
-        <img src="http://sa.sa.ntnu.edu.tw/image/nav_bar_pic/1.gif" alt="首頁"/>
-        <span class="sdt_active"></span>
-        <span class="sdt_wrap">
-          <span class="sdt_link">首頁</span>
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/about">
-        <img src="http://sa.sa.ntnu.edu.tw/image/nav_bar_pic/2.gif" alt="關於學生會"/>
-        <span class="sdt_active"></span>
-        <span class="sdt_wrap">
-          <span class="sdt_link">關於學生會</span>
-        </span>
-      </a>
-      <div class="sdt_box" style="left: 0px; display: none;height:120px;">
-        <a href="/org">組織架構</a>
-        <a href="/law">自治規程</a>
-        <a href="/intro">部門介紹</a>
-      </div>
-    </li>
-    <li>
-      <a href="/dl">
-        <img src="http://sa.sa.ntnu.edu.tw/image/nav_bar_pic/4.gif" alt="文件下載"/>
-        <span class="sdt_active"></span>
-        <span class="sdt_wrap">
-          <span class="sdt_link">文件下載</span>
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/links">
-        <img src="http://sa.sa.ntnu.edu.tw/image/nav_bar_pic/5.gif" alt="友站連結"/>
-        <span class="sdt_active"></span>
-        <span class="sdt_wrap">
-          <span class="sdt_link">友站連結</span>
-        </span>
-      </a>
-    </li>
-    <li>
-      <a href="/contact">
-        <img src="http://sa.sa.ntnu.edu.tw/image/nav_bar_pic/6.gif" alt="聯絡我們"/>
-        <span class="sdt_active"></span>
-        <span class="sdt_wrap">
-          <span class="sdt_link">聯絡我們</span>
-        </span>
-      </a>
-    </li>
-  </ul>
+<nav>
+	<h2>Navigation</h2>
+	<input type="checkbox" id="nav-trigger" />
+	<label for="nav-trigger"></label>
+	<ul class="list">
+		<li><a href="/">最新消息</a></li>
+		<li>
+			<a href="#" class="trigger_sublist">關於學生會</a> <!-- Toggle -->
+
+				<ul class="sub_list">
+					<li><a href="/org.html">組織架構</a></li>
+					<li><a href="/dep_intro.html">部門介紹</a></li>
+					<li><a href="/law.html">自治規程</a></li>
+				</ul>
+		</li>
+		<li><a href="/dl.html">文件下載</a></li>
+		<li><a href="/link.html">友站連結</a></li>
+		<li><a href="/contact.html">聯絡我們</a></li>
+
+		<!--
+		<li><a href="#">議題流變</a></li>
+		-->
+
+	</ul>
+</nav>

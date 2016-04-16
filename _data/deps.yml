@@ -1,0 +1,69 @@
+-
+  dep_name: 會長、副會長
+  intro: 對外接洽，對內統籌。四面威風，八面玲瓏。做好做滿，負責到底的會長股。
+  member:
+  - name: 楊有騰
+    position: 會長
+    subject: 東亞105
+    img: "/image/people/pre.jpg"
+  - name: 柯元惠
+    position: 副會長
+    subject: 社教105
+    img: "/image/people/vpre1.jpg"
+  - name: 陳湘妤
+    position: 副會長
+    subject: 心輔108
+    img: "/image/people/vpre2.jpg"
+-
+  dep_name: 秘書處
+  intro: 瑣碎細節難不倒他們，時間安排、文件處理，秘書部當仁不讓，協助會內事務運作順利、協助對外活動公文傳遞。
+  member:
+  - name: 范耿誌
+    position: 處長
+    subject: 資工106
+    img: "/image/people/src.jpg"
+-
+  dep_name: 活動部
+  intro: 籌辦各式對學生活動，在舉辦活動之虞，亦確立和各部會密切配合確立活動定位、價值、目的。
+  member:
+  - name: 楊力
+    position: 部長
+    subject: 東亞105
+    img: "/image/people/act_pre.jpg"
+-
+  dep_name: 文宣部
+  intro: 結合資訊、新聞、文宣三大元素於一身的文宣部，負責建立學生會的校園形象、商品包裝、資訊網絡。
+  member:
+  - name: 張薰晏
+    position: 部長
+    subject: 設計105
+    img: "/image/people/art_pre.jpg"
+-
+  dep_name: 權益部
+  intro: 爭取學生權益，捍衛世代正義。救濟學生權利侵害事件、力爭學生校園主體性。
+  member:
+  - name: 楊旻恩
+    position: 部長
+    subject: 物理103
+    img: "/image/people/equ_pre.jpg"
+  - name: 范耿誌
+    position: 副部長
+    subject: 資工106
+    img: "/image/people/equ_vpre.jpg"
+-
+  dep_name: 財務部
+  intro: 失之毫釐、差之千里，錙銖必較是財務部的天職。除了管理器材、會產，更做長遠規劃與短期內的節流。
+  member:
+  - name: 游政諺
+    position: 部長
+    subject: 科技107
+    img: "/image/people/fin.jpg"
+-
+  dep_name: 環規部
+  intro: 校園每吋土地都精打細算，場地分配、建築規劃，環境規劃部網羅資訊、爭取校園空間自主，刻不容緩。
+  member:
+  - name: 漳玨賢
+    position: 部長
+    subject: 地理108
+    img: "/image/people/plan.jpg"
+
