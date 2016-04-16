@@ -101,6 +101,10 @@ main {
 	padding: 1rem 4%;
 	width: 92%;
 
+	* {
+		color: #343434;
+	}
+
 	h2 {
 		border-bottom: 1px solid $blue;
 		color: $blue;
