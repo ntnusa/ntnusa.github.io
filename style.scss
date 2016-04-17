@@ -5,8 +5,8 @@ $blue: #6462FD;
 $dark-blue: #252257;
 $yellow: #F8D02D;
 
-html {
-	background: $blue;
+html, body {
+	background: url("/image/texture.png") $blue;
 	font-family: Arial,"Source Han Sans TW","文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體",DFKai-SB,sans-serif;
 	margin: 0;
 	padding: 0;
