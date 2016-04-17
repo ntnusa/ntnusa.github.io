@@ -8,14 +8,14 @@ title: 首頁
 </ul>
 
 <script>
-	fetch('https://graph.facebook.com/ntnustua/feed?access_token=1767756620111473|jyBfjNiktbQfB5vjEXTTz_zCFzs').then(function(response) {
+	fetch('https://graph.facebook.com/ntnustua/posts?access_token=1767756620111473|jyBfjNiktbQfB5vjEXTTz_zCFzs').then(function(response) {
 		return response.json();
 	}).then( (posts) => {
-	console.table(posts);
 		var content = "";
 		var last_msg = "";
 		var post_num = 0;
 		posts.data.forEach( (post, index) => {
+			//console.log(post);
 			if(post.story !== undefined || post_num >= 6)
 				return "!!!";
 

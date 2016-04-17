@@ -4,7 +4,6 @@
 $blue: #6462FD;
 $yellow: #F8D02D;
 
-
 html {
 	margin: 0;
 	padding: 0;
@@ -13,6 +12,7 @@ html {
 body {
 	@extend html;
 	background: url("/image/discuss.png") fixed no-repeat no-repeat 100% 0 $blue;
+	font-family: Arial,"Source Han Sans TW","文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體",DFKai-SB,sans-serif;
 }
 
 #page {
@@ -41,7 +41,7 @@ header {
 			img {
 				height: 1.5rem;
 				padding: 1px .5rem;
-				vertical-align: text-top;
+				vertical-align: text-bottom;
 			}
 		}
 	}
