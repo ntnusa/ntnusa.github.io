@@ -11,7 +11,7 @@ html {
 
 body {
 	@extend html;
-	background: url("/image/discuss.png") fixed no-repeat no-repeat 100% 0 $blue;
+	background: url("/image/discuss.png") fixed no-repeat no-repeat 100% 100% $blue;
 	font-family: Arial,"Source Han Sans TW","文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體",DFKai-SB,sans-serif;
 }
 
@@ -28,27 +28,26 @@ header {
 	padding: .25rem;
 
 	h1 {
-		display: inline-block;
-		font-size: 1.5rem;
+		display: block;
 		margin: 0;
 
 		a {
 			color: $blue;
 			display: block;
 			text-decoration: none;
-			padding: .5rem 4rem;
 
 			img {
-				height: 1.5rem;
-				padding: 1px .5rem;
 				vertical-align: text-bottom;
+				width: 100%;
 			}
 		}
 	}
 	nav {
-		display: inline-block;
+		display: block;
 		vertical-align: top;
+		text-align: right;
 
+		/*
 		&::before {
 			color: $blue;
 			content: "|";
@@ -56,6 +55,7 @@ header {
 			display: inline-block;
 			font-size: 1rem;
 		}
+		*/
 
 		h2 {
 			display: none;
@@ -65,7 +65,8 @@ header {
 		}
 		ul.list {
 			display: inline-block;
-			margin: .5rem 0;
+			margin: .5rem auto;
+			padding-right: 2rem;
 
 			> li {
 				display: inline-block;
@@ -107,8 +108,15 @@ main {
 	background: #fff;
 	flex: 1;
 	margin: 1rem auto;
-	padding: 1rem 4%;
-	width: 92%;
+	width: 100%;
+
+	.banner {
+
+	}
+
+	.content {
+		padding: 1rem 4%;
+	}
 
 	* {
 		color: #343434;
@@ -136,6 +144,10 @@ main {
 		border-bottom: 1px dashed #ccc;
 		color: $blue;
 		text-decoration: none;
+	}
+
+	img {
+		max-width: 100%;
 	}
 
 	.member {
