@@ -6,14 +6,10 @@ $dark-blue: #252257;
 $yellow: #F8D02D;
 
 html {
+	background: $blue;
+	font-family: Arial,"Source Han Sans TW","文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體",DFKai-SB,sans-serif;
 	margin: 0;
 	padding: 0;
-}
-
-body {
-	@extend html;
-	background: url("/image/discuss.png") fixed no-repeat no-repeat 100% 100% $blue;
-	font-family: Arial,"Source Han Sans TW","文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei","標楷體",DFKai-SB,sans-serif;
 }
 
 #page {
@@ -190,7 +186,7 @@ main {
 }
 
 footer {
-	background: $dark-blue;
+	background: url("/image/discuss.png") no-repeat no-repeat right top $dark-blue;
 	color: #fff;
 	font-size: .75rem;
 	line-height: 1.25rem;
