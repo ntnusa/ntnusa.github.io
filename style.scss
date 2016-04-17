@@ -5,11 +5,14 @@ $blue: #6462FD;
 $yellow: #F8D02D;
 
 
-
-html, body {
-	background: $blue;
+html {
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	@extend html;
+	background: url("/image/discuss.png") fixed no-repeat no-repeat 100% 0 $blue;
 }
 
 #page {
