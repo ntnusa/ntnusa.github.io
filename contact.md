@@ -49,5 +49,4 @@ title: 聯絡我們
 * Email：<a href="mailto:NTNUStudentA@gmail.com">NTNUStudentA@gmail.com</a>
 * Website：<a href="http://sa.sa.ntnu.edu.tw">http://sa.sa.ntnu.edu.tw</a>
 * Facebook：<a href="http://fb.me/ntnustua">http://fb.me/ntnustua</a>
-* Information Stand :	the third Tue  to Thur every month on Sunshine Ave
 
