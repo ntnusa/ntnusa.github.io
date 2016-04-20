@@ -66,4 +66,24 @@
     position: 部長
     subject: 地理108
     img: "/image/people/plan.jpg"
+-
+  dep_name: 公關部
+  intro: 對外的形象由我主導，有任何事情就衝著我來吧！
+  member:
+  - name: 黃瀅璇
+    position: 部長
+    subject: 國文107
+    img: "/image/people/pub.jpg"
+-
+  dep_name: 性別部
+  intro: 不要再說兩性平等了，我們是性別部！
+  member:
+  - name: 余珮萱
+    position: 部長
+    subject: 地科106
+    img: "/image/people/gen.jpg"
+  - name: 郭彥霆
+    position: 副部長
+    subject: 公領108
+    img: "/image/people/vgen.jpg"
 
